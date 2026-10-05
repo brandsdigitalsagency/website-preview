@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <base href="/sites/clearflow-plumbing-9ef50e8f/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClearFlow Plumbing &mdash; Professional Plumbing Companies in Austin, TX</title>
+  <meta name="description" content="Licensed master technicians providing prompt leak detection, water heater service, and drain repairs for homes across Austin, TX.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --theme-primary: #0284c7;
+      --theme-primary-dark: #0f2e59;
+      --theme-accent: #f97316;
+      --theme-bg: #ffffff;
+      --theme-surface: #f8fafc;
+      --theme-surface-card: #ffffff;
+      --theme-border: #e2e8f0;
+      --theme-border-hover: #cbd5e1;
+      --theme-text: #0f172a;
+      --theme-muted: #64748b;
+      --theme-subtle: #94a3b8;
+      --font-brand: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-heading: 'Plus Jakarta Sans', var(--font-brand);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: var(--font-brand);
+      background-color: var(--theme-bg);
+      color: var(--theme-text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* Layout Containers */
+    .container {
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .section {
+      padding: 85px 0;
+      position: relative;
+    }
+    .section-gray {
+      background-color: var(--theme-surface);
+      border-top: 1px solid var(--theme-border);
+      border-bottom: 1px solid var(--theme-border);
+    }
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 50px;
+    }
+    .section-split-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 45px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .section-tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--theme-primary);
+      margin-bottom: 10px;
+    }
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      color: var(--theme-text);
+      line-height: 1.25;
+      font-weight: 700;
+    }
+    h1 { font-size: clamp(2.2rem, 4vw, 3.2rem); letter-spacing: -0.025em; margin-bottom: 16px; }
+    h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); letter-spacing: -0.02em; margin-bottom: 12px; }
+    h3 { font-size: 1.25rem; margin-bottom: 8px; }
+    h4 { font-size: 1.1rem; margin-bottom: 6px; }
+    p { color: var(--theme-muted); font-size: 1.02rem; }
+
+    /* Buttons */
+    a { color: inherit; text-decoration: none; }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--theme-primary);
+      color: #ffffff !important;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.25);
+    }
+    .btn-primary:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(2, 132, 199, 0.35);
+    }
+    .btn-white {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      color: var(--theme-primary-dark) !important;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-white:hover {
+      background: #f1f5f9;
+      transform: translateY(-1px);
+    }
+
+    /* Emergency Strip */
+    .emergency-strip {
+      background: #dc2626;
+      color: #ffffff;
+      padding: 10px 0;
+      font-size: 0.9rem;
+    }
+    .emergency-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .emergency-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-emergency {
+      background: #ffffff;
+      color: #dc2626 !important;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ffffff;
+      display: inline-block;
+      box-shadow: 0 0 6px #ffffff;
+    }
+
+    /* Navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--theme-border);
+      padding: 18px 0;
+    }
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-logo-icon {
+      width: 36px;
+      height: 36px;
+      background: var(--theme-primary);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    .brand-text strong {
+      display: block;
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--theme-text);
+      line-height: 1.1;
+    }
+    .brand-text span {
+      font-size: 0.78rem;
+      color: var(--theme-muted);
+      font-weight: 500;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--theme-muted);
+    }
+    .nav-links a:hover { color: var(--theme-primary); }
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .nav-phone-box {
+      text-align: right;
+    }
+    .nav-phone-link {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--theme-text);
+      display: block;
+      line-height: 1.2;
+    }
+    .nav-phone-sub {
+      font-size: 0.75rem;
+      color: var(--theme-muted);
+      font-weight: 500;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 60px 0 80px;
+      background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+      position: relative;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 50px;
+      align-items: center;
+    }
+    .location-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      border: 1px solid var(--theme-border);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--theme-primary);
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    }
+    .hero-lead-text {
+      font-size: 1.15rem;
+      color: var(--theme-muted);
+      margin-bottom: 30px;
+      max-width: 600px;
+    }
+
+    /* Hero Form Card */
+    .hero-form-card {
+      background: #ffffff;
+      border: 1px solid var(--theme-border);
+      border-radius: 14px;
+      padding: 32px;
+      box-shadow: 0 12px 36px rgba(15, 23, 42, 0.08);
+    }
+    .hero-form-card h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+      color: var(--theme-text);
+    }
+    .form-group { margin-bottom: 16px; }
+    .form-group label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #475569;
+      margin-bottom: 6px;
+    }
+    .form-input {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: var(--theme-text);
+      outline: none;
+      transition: border 0.15s ease;
+      background: #ffffff;
+      font-family: inherit;
+    }
+    .form-input:focus {
+      border-color: var(--theme-primary);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    }
+    .form-microcopy {
+      font-size: 0.78rem;
+      color: var(--theme-subtle);
+      text-align: center;
+      margin-top: 10px;
+    }
+    .form-status {
+      margin-top: 12px;
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      background: #f0fdf4;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+
+    /* 4-Pillar Trust Bar */
+    .trust-strip {
+      background: #ffffff;
+      border-top: 1px solid var(--theme-border);
+      border-bottom: 1px solid var(--theme-border);
+      padding: 30px 0;
+    }
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .trust-pill-box {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .trust-icon-wrap {
+      width: 44px;
+      height: 44px;
+      background: #f0f9ff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: var(--theme-primary);
+      flex-shrink: 0;
+    }
+    .trust-text-wrap strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--theme-text);
+    }
+    .trust-text-wrap span {
+      font-size: 0.82rem;
+      color: var(--theme-muted);
+    }
+
+    /* Services Grid */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .service-card {
+      background: #ffffff;
+      border: 1px solid var(--theme-border);
+      border-radius: 12px;
+      padding: 28px 24px;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .service-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      border-color: #cbd5e1;
+    }
+    .service-icon-circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #f0f9ff;
+      border: 1px solid #bae6fd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      margin-bottom: 18px;
+    }
+    .service-card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 8px;
+    }
+    .service-card p {
+      font-size: 0.92rem;
+      color: var(--theme-muted);
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+    .service-link {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--theme-primary);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* About / Why Choose Us Section */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .about-visual-card {
+      background: linear-gradient(135deg, #0f2e59 0%, #0284c7 100%);
+      border-radius: 16px;
+      padding: 48px;
+      color: #ffffff;
+      position: relative;
+      overflow: hidden;
+      min-height: 380px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .about-badge-card {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 10px;
+      padding: 16px 20px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      max-width: 320px;
+    }
+    .about-badge-card .badge-icon { font-size: 24px; }
+    .about-badge-card strong { display: block; font-size: 1.05rem; }
+    .about-badge-card span { font-size: 0.85rem; opacity: 0.9; }
+
+    .why-list {
+      list-style: none;
+      margin: 24px 0 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .why-list-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .check-icon {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #e0f2fe;
+      color: var(--theme-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 13px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .why-list-item strong {
+      display: block;
+      font-size: 1rem;
+      color: var(--theme-text);
+    }
+    .why-list-item p {
+      font-size: 0.92rem;
+      margin-top: 2px;
+    }
+
+    /* Testimonials */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .testimonial-card {
+      background: #ffffff;
+      border: 1px solid var(--theme-border);
+      border-radius: 12px;
+      padding: 28px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+      position: relative;
+    }
+    .quote-mark {
+      font-size: 40px;
+      line-height: 1;
+      color: #93c5fd;
+      margin-bottom: 8px;
+    }
+    .review-body {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: #334155;
+      margin-bottom: 20px;
+    }
+    .review-meta {
+      border-top: 1px solid #f1f5f9;
+      padding-top: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .stars { color: #eab308; font-size: 14px; }
+
+    /* Process Grid */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .process-card {
+      background: #ffffff;
+      border: 1px solid var(--theme-border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .step-num {
+      display: inline-block;
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--theme-primary);
+      margin-bottom: 12px;
+    }
+
+    /* FAQs */
+    .faq-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .faq-item {
+      background: #ffffff;
+      border: 1px solid var(--theme-border);
+      border-radius: 10px;
+      padding: 18px 22px;
+      cursor: pointer;
+    }
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      color: var(--theme-text);
+      list-style: none;
+    }
+    .faq-question::-webkit-details-marker { display: none; }
+    .faq-answer {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--theme-border);
+      font-size: 0.95rem;
+      color: var(--theme-muted);
+    }
+
+    /* Pre-Footer Action Banner */
+    .prefooter-banner {
+      background: #0f2e59;
+      color: #ffffff;
+      padding: 40px 0;
+    }
+    .prefooter-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    .prefooter-text-wrap {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .prefooter-icon {
+      font-size: 36px;
+    }
+    .prefooter-text-wrap h3 {
+      color: #ffffff;
+      font-size: 1.5rem;
+      margin-bottom: 4px;
+    }
+    .prefooter-text-wrap p {
+      color: #94a3b8;
+      font-size: 0.98rem;
+    }
+    .prefooter-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .prefooter-phone {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: #ffffff;
+    }
+
+    /* Footer */
+    .footer {
+      background: #09172a;
+      color: #94a3b8;
+      padding: 40px 0 25px;
+      font-size: 0.9rem;
+    }
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .footer-links {
+      display: flex;
+      gap: 20px;
+    }
+    .footer-links a:hover { color: #ffffff; }
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 24px;
+      font-size: 0.82rem;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    /* Mobile Quick-Call Bar */
+    .mobile-call-bar {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      padding: 12px 18px;
+      border-top: 1px solid var(--theme-border);
+      z-index: 999;
+      box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Responsiveness */
+    @media (max-width: 1024px) {
+      .hero-grid, .about-grid { grid-template-columns: 1fr; }
+      .trust-grid { grid-template-columns: repeat(2, 1fr); }
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-grid { grid-template-columns: repeat(2, 1fr); }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+    }
+    @media (max-width: 768px) {
+      .trust-grid { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: 1fr; }
+      .process-grid { grid-template-columns: 1fr; }
+      .prefooter-inner { flex-direction: column; align-items: flex-start; }
+      .mobile-call-bar { display: block; }
+      body { padding-bottom: 68px; }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <div class="emergency-strip">
+    <div class="container emergency-inner">
+      <div class="emergency-badge">
+        <span class="pulse-dot"></span>
+        <strong>24/7 Priority Emergency Dispatch</strong>
+      </div>
+      <p>Dealing with an urgent issue? Our technicians are on call across Austin, TX.</p>
+      <a href="tel:5552487321" class="btn-emergency">
+        <span>⚡ Call Now: (555) 248-7321</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <div class="brand-logo-icon">💧</div>
+        <div class="brand-text">
+          <strong>ClearFlow Plumbing</strong>
+          <span>Fast &bull; Reliable &bull; Local</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="nav-phone-box">
+          <a href="tel:5552487321" class="nav-phone-link">(555) 248-7321</a>
+          <span class="nav-phone-sub">24/7 Service Support</span>
+        </div>
+        <a href="#contact" class="btn-primary">Book an Appointment</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="location-pill">
+          <span>📍</span>
+          <span>Trusted Local Plumbing Companies in Austin, TX</span>
+        </div>
+        <h1>Reliable Plumbing &amp; Drain Solutions in Austin, TX</h1>
+        <p class="hero-lead-text">Licensed master technicians providing prompt leak detection, water heater service, and drain repairs for homes across Austin, TX.</p>
+      </div>
+
+      <!-- Hero Lead Form Card -->
+      <div id="contact" class="hero-form-card">
+        <h3>Book a Service or Get a Free Quote</h3>
+        <form id="hero-quote-form">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input class="form-input" type="text" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input class="form-input" type="tel" placeholder="(555) 248-7321" required>
+          </div>
+          <div class="form-group">
+            <label>Service Needed</label>
+            <select class="form-input">
+              <option value="Emergency Drain Cleaning &amp; Hydro-Jetting">Emergency Drain Cleaning &amp; Hydro-Jetting</option>
+<option value="Tankless Water Heater Installation">Tankless Water Heater Installation</option>
+<option value="Trenchless Sewer Line Replacement">Trenchless Sewer Line Replacement</option>
+<option value="Slab Leak &amp; Hidden Pipe Detection">Slab Leak &amp; Hidden Pipe Detection</option>
+<option value="Whole-Home Water Filtration &amp; Softeners">Whole-Home Water Filtration &amp; Softeners</option>
+<option value="Fixture Repair &amp; Bathroom Repiping">Fixture Repair &amp; Bathroom Repiping</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Additional Details (optional)</label>
+            <textarea class="form-input" rows="2" placeholder="Briefly describe what you need..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center">
+            Book Service Online &rarr;
+          </button>
+          <p class="form-microcopy">No obligation. We'll get back to you promptly.</p>
+          <div class="form-status" style="display:none"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4-Pillar Trust & Credibility Strip -->
+  <div class="trust-strip">
+    <div class="container trust-grid">
+      <div class="trust-pill-box">
+        <div class="trust-icon-wrap">🛡️</div>
+        <div class="trust-text-wrap">
+          <strong>Licensed &amp; Insured</strong>
+          <span>Your property is in safe hands.</span>
+        </div>
+      </div>
+      <div class="trust-pill-box">
+        <div class="trust-icon-wrap">⏱️</div>
+        <div class="trust-text-wrap">
+          <strong>Same-Day Service</strong>
+          <span>For urgent plumbing companies issues.</span>
+        </div>
+      </div>
+      <div class="trust-pill-box">
+        <div class="trust-icon-wrap">⭐</div>
+        <div class="trust-text-wrap">
+          <strong>Upfront Flat Pricing</strong>
+          <span>Transparent rates, zero surprises.</span>
+        </div>
+      </div>
+      <div class="trust-pill-box">
+        <div class="trust-icon-wrap">📍</div>
+        <div class="trust-text-wrap">
+          <strong>Local &amp; Trusted</strong>
+          <span>Proudly serving Austin, TX.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Grid Section -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-split-header">
+        <div>
+          <span class="section-tag">Our Services</span>
+          <h2>Complete Plumbing Companies Solutions</h2>
+          <p>We handle it all &mdash; residential and commercial plumbing companies with quality workmanship and lasting results.</p>
+        </div>
+        <a href="#contact" class="btn-primary">View All Services &rarr;</a>
+      </div>
+      <div class="services-grid">
+        
+        <div class="service-card">
+          <div class="service-icon-circle">🔧</div>
+          <h3>Emergency Drain Cleaning &amp; Hydro-Jetting</h3>
+          <p>Clearing main sewer lines and stubborn grease clogs with 4,000 PSI high-pressure water jets.</p>
+          <a href="#contact" class="service-link">Inquire About This Service <span>&rarr;</span></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-circle">💧</div>
+          <h3>Tankless Water Heater Installation</h3>
+          <p>Endless on-demand hot water systems delivering continuous comfort and low energy usage.</p>
+          <a href="#contact" class="service-link">Inquire About This Service <span>&rarr;</span></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-circle">🛡️</div>
+          <h3>Trenchless Sewer Line Replacement</h3>
+          <p>Epoxy pipe-lining and pipe-bursting replacing damaged sewer lines without tearing up your lawn.</p>
+          <a href="#contact" class="service-link">Inquire About This Service <span>&rarr;</span></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-circle">⚡</div>
+          <h3>Slab Leak &amp; Hidden Pipe Detection</h3>
+          <p>Non-invasive electronic acoustic sensors locating pressurized water leaks under foundations.</p>
+          <a href="#contact" class="service-link">Inquire About This Service <span>&rarr;</span></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-circle">📐</div>
+          <h3>Whole-Home Water Filtration &amp; Softeners</h3>
+          <p>Eliminating hard water mineral scaling and chlorine contaminants for pure drinking water.</p>
+          <a href="#contact" class="service-link">Inquire About This Service <span>&rarr;</span></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon-circle">🚿</div>
+          <h3>Fixture Repair &amp; Bathroom Repiping</h3>
+          <p>Upgrading worn valves, toilets, luxury shower bodies, and PEX water supply piping.</p>
+          <a href="#contact" class="service-link">Inquire About This Service <span>&rarr;</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Why Choose Us Section -->
+  <section id="about" class="section section-gray">
+    <div class="container about-grid">
+      <div class="about-visual-card">
+        <div class="about-badge-card">
+          <span class="badge-icon">💧</span>
+          <div>
+            <strong>Clean Water &amp; Precision</strong>
+            <span>A healthier home and property.</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span class="section-tag">About Us</span>
+        <h2>Why Choose ClearFlow Plumbing?</h2>
+        <p>We are a dedicated local company providing top-notch service, honest pricing, and long-lasting solutions. Our experienced team is committed to your comfort and peace of mind.</p>
+        <ul class="why-list">
+          
+        <li class="why-list-item">
+          <span class="check-icon">✓</span>
+          <div>
+            <strong>Licensed &amp; Verified Specialists</strong>
+            <p>Our credentialed technicians adhere strictly to local safety codes and industry standards on every project.</p>
+          </div>
+        </li>
+
+        <li class="why-list-item">
+          <span class="check-icon">✓</span>
+          <div>
+            <strong>Transparent Upfront Pricing</strong>
+            <p>Clear, itemized quotes before work begins. No hidden travel fees, emergency surcharges, or unexpected surprises.</p>
+          </div>
+        </li>
+
+        <li class="why-list-item">
+          <span class="check-icon">✓</span>
+          <div>
+            <strong>Responsive Communication</strong>
+            <p>Direct communication from first call to final completion, respecting your schedule and property.</p>
+          </div>
+        </li>
+
+        <li class="why-list-item">
+          <span class="check-icon">✓</span>
+          <div>
+            <strong>Clean Jobsite Commitment</strong>
+            <p>We treat your property with utmost respect, leaving work areas immaculate upon project completion.</p>
+          </div>
+        </li>
+        </ul>
+        <a href="#contact" class="btn-primary">Learn More About Us &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works / Process Section -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Method</span>
+        <h2>How We Deliver Quality</h2>
+        <p>A simple, transparent 4-step workflow engineered to give you complete confidence.</p>
+      </div>
+      <div class="process-grid">
+        
+        <div class="process-card">
+          <div class="step-num">01</div>
+          <h4>Prompt Dispatch Call</h4>
+          <p>Reach an on-call team member who coordinates rapid technician dispatch to your property.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="step-num">02</div>
+          <h4>Camera &amp; Acoustic Diagnostics</h4>
+          <p>Pinpointing the exact clog location, slab leak, or fixture failure without unnecessary disruption.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="step-num">03</div>
+          <h4>Clear Flat-Rate Quote</h4>
+          <p>You receive a fixed upfront price before any wrench turns. Zero surprise fees.</p>
+        </div>
+
+        <div class="process-card">
+          <div class="step-num">04</div>
+          <h4>Guaranteed Repair &amp; Cleanup</h4>
+          <p>Tidy, durable repair with protective boot covers and thorough operational testing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- FAQs Section -->
+  <section id="faq" class="section section-gray">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Got Questions?</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Clear answers to common questions about our plumbing companies services in Austin, TX.</p>
+      </div>
+      <div class="faq-wrap">
+        
+        <details class="faq-item" open>
+          <summary class="faq-question">
+            <span>What should I do immediately during an urgent water leak emergency?</span>
+            <span class="faq-chevron">&darr;</span>
+          </summary>
+          <div class="faq-answer">
+            <p>First, shut off the main water valve to prevent further structural damage. Then contact our direct line immediately for priority emergency dispatch.</p>
+          </div>
+        </details>
+
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>Is a tankless water heater worth the investment?</span>
+            <span class="faq-chevron">&darr;</span>
+          </summary>
+          <div class="faq-answer">
+            <p>Tankless systems provide continuous on-demand hot water, take up 80% less space, and last up to 20 years—roughly double the lifespan of traditional tank heaters while reducing energy usage.</p>
+          </div>
+        </details>
+
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>Do you charge flat-rate or hourly pricing?</span>
+            <span class="faq-chevron">&darr;</span>
+          </summary>
+          <div class="faq-answer">
+            <p>We provide upfront flat-rate quotes after diagnosing the issue. You approve the exact cost before any work begins, so there are no open-ended hourly surprises.</p>
+          </div>
+        </details>
+
+        <details class="faq-item" >
+          <summary class="faq-question">
+            <span>How often should residential sewer and drain pipes be cleaned?</span>
+            <span class="faq-chevron">&darr;</span>
+          </summary>
+          <div class="faq-answer">
+            <p>For homes older than 10 years or with mature trees nearby, annual or biennial video pipe inspections and preventative drain cleanings prevent costly backups.</p>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-Footer Action Banner -->
+  <div class="prefooter-banner">
+    <div class="container prefooter-inner">
+      <div class="prefooter-text-wrap">
+        <div class="prefooter-icon">📅</div>
+        <div>
+          <h3>Need Plumbing Companies Help Now?</h3>
+          <p>Book an appointment or get a free quote. We're here to assist you.</p>
+        </div>
+      </div>
+      <div class="prefooter-actions">
+        <a href="#contact" class="btn-white">Book an Appointment &rarr;</a>
+        <a href="tel:5552487321" class="prefooter-phone">
+          <span>📞</span>
+          <span>(555) 248-7321</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand">
+          <div class="brand-logo-icon" style="background:#0284c7">💧</div>
+          <div class="brand-text">
+            <strong style="color:#ffffff">ClearFlow Plumbing</strong>
+            <span style="color:#94a3b8">Fast &bull; Reliable &bull; Local</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#process">Process</a>
+          <a href="#faq">FAQs</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; ClearFlow Plumbing. All rights reserved. Professional Plumbing Companies.</div>
+        <div>Proudly serving Austin, TX and surrounding areas.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Sticky Call Bar -->
+  <div class="mobile-call-bar">
+    <a href="tel:5552487321" class="btn-primary" style="width:100%;justify-content:center;text-align:center">
+      📞 Call (555) 248-7321
+    </a>
+  </div>
+
+  <script>
+    document.querySelectorAll('form').forEach(function(f) {
+      f.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var status = f.querySelector('.form-status');
+        if (status) {
+          status.textContent = '✓ Thank you! Your request has been received. Our team will contact you shortly.';
+          status.style.display = 'block';
+        }
+        f.reset();
+      });
+    });
+  </script>
+</body>
+</html>

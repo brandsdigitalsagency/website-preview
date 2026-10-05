@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "business_name": "ClearFlow Plumbing",
+    "industry": "Plumbing Companies",
+    "archetype": "plumber",
+    "city": "Austin, TX",
+    "domain": "",
+    "generator_version": "2.0.0-industry-aware"
+  },
+  "strategy": {
+    "objective": "generate_immediate_calls",
+    "urgency": "high",
+    "hero_layout": "split_conversion",
+    "primary_cta": {
+      "text": "Call (555) 248-7321",
+      "href": "#contact",
+      "type": "phone"
+    },
+    "secondary_cta": {
+      "text": "Request Service Online",
+      "href": "#services",
+      "type": "form"
+    }
+  },
+  "hero": {
+    "headline": "Reliable Plumbing & Drain Solutions in Austin, TX",
+    "subheadline": "Licensed master technicians providing prompt leak detection, water heater service, and drain repairs for homes across Austin, TX.",
+    "primary_cta": {
+      "text": "Call (555) 248-7321",
+      "href": "#contact",
+      "type": "phone"
+    },
+    "secondary_cta": {
+      "text": "Request Service Online",
+      "href": "#services",
+      "type": "form"
+    },
+    "trust_pills": [
+      {
+        "label": "Service Guarantee",
+        "detail": "Upfront Pricing"
+      },
+      {
+        "label": "Local Presence",
+        "detail": "Serving Austin, TX"
+      },
+      {
+        "label": "Quality Standard",
+        "detail": "Licensed & Insured"
+      }
+    ]
+  },
+  "sections_order": [
+    "header",
+    "hero",
+    "emergency_callout",
+    "services",
+    "why_choose_us",
+    "process",
+    "service_areas",
+    "faq",
+    "final_cta",
+    "footer"
+  ],
+  "excluded_sections": [
+    "customer_testimonials (unverified proof omitted)",
+    "certifications_gallery (unverified badges omitted)",
+    "team_member_roster (unverified personal bios omitted)",
+    "case_studies (unverified project histories omitted)"
+  ],
+  "content": {
+    "services": [
+      {
+        "name": "Emergency Drain Cleaning & Hydro-Jetting",
+        "desc": "Clearing main sewer lines and stubborn grease clogs with 4,000 PSI high-pressure water jets."
+      },
+      {
+        "name": "Tankless Water Heater Installation",
+        "desc": "Endless on-demand hot water systems delivering continuous comfort and low energy usage."
+      },
+      {
+        "name": "Trenchless Sewer Line Replacement",
+        "desc": "Epoxy pipe-lining and pipe-bursting replacing damaged sewer lines without tearing up your lawn."
+      },
+      {
+        "name": "Slab Leak & Hidden Pipe Detection",
+        "desc": "Non-invasive electronic acoustic sensors locating pressurized water leaks under foundations."
+      },
+      {
+        "name": "Whole-Home Water Filtration & Softeners",
+        "desc": "Eliminating hard water mineral scaling and chlorine contaminants for pure drinking water."
+      },
+      {
+        "name": "Fixture Repair & Bathroom Repiping",
+        "desc": "Upgrading worn valves, toilets, luxury shower bodies, and PEX water supply piping."
+      }
+    ],
+    "why_choose_us": [
+      {
+        "icon": "\ud83d\udee1\ufe0f",
+        "title": "Licensed & Verified Specialists",
+        "desc": "Our credentialed technicians adhere strictly to local safety codes and industry standards on every project."
+      },
+      {
+        "icon": "\ud83d\udcb5",
+        "title": "Transparent Upfront Pricing",
+        "desc": "Clear, itemized quotes before work begins. No hidden travel fees, emergency surcharges, or unexpected surprises."
+      },
+      {
+        "icon": "\u26a1",
+        "title": "Responsive Communication",
+        "desc": "Direct communication from first call to final completion, respecting your schedule and property."
+      },
+      {
+        "icon": "\u2728",
+        "title": "Clean Jobsite Commitment",
+        "desc": "We treat your property with utmost respect, leaving work areas immaculate upon project completion."
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Prompt Dispatch Call",
+        "desc": "Reach an on-call team member who coordinates rapid technician dispatch to your property."
+      },
+      {
+        "step": "02",
+        "title": "Camera & Acoustic Diagnostics",
+        "desc": "Pinpointing the exact clog location, slab leak, or fixture failure without unnecessary disruption."
+      },
+      {
+        "step": "03",
+        "title": "Clear Flat-Rate Quote",
+        "desc": "You receive a fixed upfront price before any wrench turns. Zero surprise fees."
+      },
+      {
+        "step": "04",
+        "title": "Guaranteed Repair & Cleanup",
+        "desc": "Tidy, durable repair with protective boot covers and thorough operational testing."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What should I do immediately during an urgent water leak emergency?",
+        "a": "First, shut off the main water valve to prevent further structural damage. Then contact our direct line immediately for priority emergency dispatch."
+      },
+      {
+        "q": "Is a tankless water heater worth the investment?",
+        "a": "Tankless systems provide continuous on-demand hot water, take up 80% less space, and last up to 20 years\u2014roughly double the lifespan of traditional tank heaters while reducing energy usage."
+      },
+      {
+        "q": "Do you charge flat-rate or hourly pricing?",
+        "a": "We provide upfront flat-rate quotes after diagnosing the issue. You approve the exact cost before any work begins, so there are no open-ended hourly surprises."
+      },
+      {
+        "q": "How often should residential sewer and drain pipes be cleaned?",
+        "a": "For homes older than 10 years or with mature trees nearby, annual or biennial video pipe inspections and preventative drain cleanings prevent costly backups."
+      }
+    ],
+    "contact": {
+      "phone": "(555) 248-7321",
+      "email": "service@clearflowplumbing.com",
+      "address": "Serving Austin, TX and surrounding areas",
+      "service_area": "Austin, TX and surrounding communities"
+    }
+  },
+  "design_system": {
+    "palette": {
+      "primary": "#0284c7",
+      "accent": "#f97316",
+      "surface": "#0f172a",
+      "background": "#020617",
+      "text": "#f8fafc",
+      "muted": "#94a3b8"
+    },
+    "typography": {
+      "font_family": "Plus Jakarta Sans",
+      "font_heading": "Plus Jakarta Sans",
+      "font_url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+    },
+    "logo_url": "",
+    "favicon_url": ""
+  }
+}
