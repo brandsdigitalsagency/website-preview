@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "business_name": "Lone Star Roofing Solutions",
+    "industry": "Roofing Companies",
+    "archetype": "roofer",
+    "city": "Dallas",
+    "domain": "",
+    "generator_version": "2.0.0-industry-aware"
+  },
+  "strategy": {
+    "objective": "generate_quote_requests",
+    "urgency": "medium_high",
+    "hero_layout": "text_lead_form",
+    "primary_cta": {
+      "text": "Request Free Estimate",
+      "href": "#contact",
+      "type": "form"
+    },
+    "secondary_cta": {
+      "text": "View Our Services",
+      "href": "#services",
+      "type": "scroll"
+    }
+  },
+  "hero": {
+    "headline": "Precision Roofing & Storm Restoration in Dallas",
+    "subheadline": "Protecting homes and commercial properties across Dallas with architectural shingle replacements, leak repairs, and drone inspections.",
+    "primary_cta": {
+      "text": "Request Free Estimate",
+      "href": "#contact",
+      "type": "form"
+    },
+    "secondary_cta": {
+      "text": "View Our Services",
+      "href": "#services",
+      "type": "scroll"
+    },
+    "trust_pills": [
+      {
+        "label": "Service Guarantee",
+        "detail": "Upfront Pricing"
+      },
+      {
+        "label": "Local Presence",
+        "detail": "Serving Dallas"
+      },
+      {
+        "label": "Quality Standard",
+        "detail": "Licensed & Insured"
+      }
+    ]
+  },
+  "sections_order": [
+    "header",
+    "hero",
+    "services",
+    "why_choose_us",
+    "process",
+    "service_areas",
+    "faq",
+    "final_cta",
+    "footer"
+  ],
+  "excluded_sections": [
+    "customer_testimonials (unverified proof omitted)",
+    "certifications_gallery (unverified badges omitted)",
+    "team_member_roster (unverified personal bios omitted)",
+    "case_studies (unverified project histories omitted)"
+  ],
+  "content": {
+    "services": [],
+    "why_choose_us": [
+      {
+        "icon": "\ud83d\udee1\ufe0f",
+        "title": "Licensed & Verified Specialists",
+        "desc": "Our credentialed technicians adhere strictly to local safety codes and industry standards on every project."
+      },
+      {
+        "icon": "\ud83d\udcb5",
+        "title": "Transparent Upfront Pricing",
+        "desc": "Clear, itemized quotes before work begins. No hidden travel fees, emergency surcharges, or unexpected surprises."
+      },
+      {
+        "icon": "\u26a1",
+        "title": "Responsive Communication",
+        "desc": "Direct communication from first call to final completion, respecting your schedule and property."
+      },
+      {
+        "icon": "\u2728",
+        "title": "Clean Jobsite Commitment",
+        "desc": "We treat your property with utmost respect, leaving work areas immaculate upon project completion."
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Drone Roof Inspection",
+        "desc": "Comprehensive high-resolution aerial scan documenting shingle wear, storm damage, and flashing integrity."
+      },
+      {
+        "step": "02",
+        "title": "Transparent Itemized Estimate",
+        "desc": "Detailed written quote reviewing shingle options, ventilation specs, and warranty coverage."
+      },
+      {
+        "step": "03",
+        "title": "Expert Tear-Off & Installation",
+        "desc": "Clean, efficient roof installation by certified crews followed by a multi-point magnetic nail sweep."
+      },
+      {
+        "step": "04",
+        "title": "Final Quality Handover",
+        "desc": "Thorough inspection ensuring full code compliance and registration of manufacturer warranty."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How do I know if my roof needs a complete replacement or a simple repair?",
+        "a": "If shingles are curling, missing across large sections, or older than 20 years, replacement is typically more economical than patch repairs. We provide a photographic inspection showing exact roof conditions so you can make an informed choice."
+      },
+      {
+        "q": "Can you help with insurance storm damage claims?",
+        "a": "Yes. We document hail fractures and wind uplift with high-resolution imagery and meet your insurance adjuster on-site to ensure all storm damage is accurately represented."
+      },
+      {
+        "q": "How long does a standard residential roof replacement take?",
+        "a": "Most residential re-roofing projects are completed in 1 to 2 days, including full tear-off, underlayment installation, shingle application, and magnetic nail sweep."
+      },
+      {
+        "q": "Do you serve all neighborhoods in Dallas?",
+        "a": "Yes, we provide full roofing, gutter, and repair services across all residential and commercial zones in Dallas and surrounding communities."
+      }
+    ],
+    "contact": {
+      "phone": "(214) 888-9999",
+      "email": "quotes@lonestarroofing.com",
+      "address": "Serving Dallas and surrounding areas",
+      "service_area": "Dallas and surrounding communities"
+    }
+  },
+  "design_system": {
+    "palette": {
+      "primary": "#0284c7",
+      "accent": "#0ea5e9",
+      "surface": "#0f172a",
+      "background": "#020617",
+      "text": "#f8fafc",
+      "muted": "#94a3b8"
+    },
+    "typography": {
+      "font_family": "Inter",
+      "font_heading": "Inter",
+      "font_url": ""
+    },
+    "logo_url": "",
+    "favicon_url": ""
+  }
+}
