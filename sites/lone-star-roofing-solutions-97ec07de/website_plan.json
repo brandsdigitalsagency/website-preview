@@ -68,7 +68,32 @@
     "case_studies (unverified project histories omitted)"
   ],
   "content": {
-    "services": [],
+    "services": [
+      {
+        "name": "Complete Roof Replacement",
+        "desc": "Full architectural shingle and metal roof tear-offs backed by 30-year manufacturer warranties."
+      },
+      {
+        "name": "Emergency Storm Damage Repair",
+        "desc": "Fast tarping, hail damage inspection, and insurance claim documentation within 24 hours."
+      },
+      {
+        "name": "Commercial Flat Roof Solutions",
+        "desc": "TPO, EPDM, and modified bitumen commercial membrane systems engineered for extreme weather."
+      },
+      {
+        "name": "Seamless Gutter Installation",
+        "desc": "Custom on-site extruded aluminum gutters designed to divert rainwater and protect your foundation."
+      },
+      {
+        "name": "Attic Ventilation & Insulation",
+        "desc": "Optimized ridge vents and baffles to lower energy cooling costs and prevent moisture buildup."
+      },
+      {
+        "name": "Free 21-Point Drone Roof Inspection",
+        "desc": "High-resolution aerial imaging identifying micro-fractures, missing granules, and flashing leaks."
+      }
+    ],
     "why_choose_us": [
       {
         "icon": "\ud83d\udee1\ufe0f",
@@ -141,16 +166,16 @@
   "design_system": {
     "palette": {
       "primary": "#0284c7",
-      "accent": "#0ea5e9",
+      "accent": "#f97316",
       "surface": "#0f172a",
       "background": "#020617",
       "text": "#f8fafc",
       "muted": "#94a3b8"
     },
     "typography": {
-      "font_family": "Inter",
-      "font_heading": "Inter",
-      "font_url": ""
+      "font_family": "Plus Jakarta Sans",
+      "font_heading": "Plus Jakarta Sans",
+      "font_url": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
     },
     "logo_url": "",
     "favicon_url": ""
