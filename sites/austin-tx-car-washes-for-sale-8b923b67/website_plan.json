@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "business_name": "Austin, TX Car washes for sale",
+    "industry": "Car Washes",
+    "archetype": "hvac",
+    "city": "austin tx",
+    "domain": "",
+    "generator_version": "2.0.0-industry-aware"
+  },
+  "strategy": {
+    "objective": "generate_inquiries",
+    "urgency": "medium",
+    "hero_layout": "text_image",
+    "primary_cta": {
+      "text": "Get In Touch",
+      "href": "#contact",
+      "type": "form"
+    },
+    "secondary_cta": {
+      "text": "View Services",
+      "href": "#services",
+      "type": "scroll"
+    }
+  },
+  "hero": {
+    "headline": "Dedicated Car Washes Services in austin tx",
+    "subheadline": "Showroom shine and superior vehicle protection in under 5 minutes.",
+    "primary_cta": {
+      "text": "Get In Touch",
+      "href": "#contact",
+      "type": "form"
+    },
+    "secondary_cta": {
+      "text": "View Services",
+      "href": "#services",
+      "type": "scroll"
+    },
+    "trust_pills": [
+      {
+        "label": "Service Guarantee",
+        "detail": "Upfront Pricing"
+      },
+      {
+        "label": "Local Presence",
+        "detail": "Serving austin tx"
+      },
+      {
+        "label": "Quality Standard",
+        "detail": "Licensed & Insured"
+      }
+    ]
+  },
+  "sections_order": [
+    "header",
+    "hero",
+    "services",
+    "why_choose_us",
+    "process",
+    "service_areas",
+    "faq",
+    "final_cta",
+    "footer"
+  ],
+  "excluded_sections": [
+    "customer_testimonials (unverified proof omitted)",
+    "certifications_gallery (unverified badges omitted)",
+    "team_member_roster (unverified personal bios omitted)",
+    "case_studies (unverified project histories omitted)"
+  ],
+  "content": {
+    "services": [
+      {
+        "name": "Touchless & Soft-Touch Exterior Washes",
+        "desc": "Professional touchless & soft-touch exterior washes delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Underbody Rust-Inhibitor Blaster",
+        "desc": "Professional underbody rust-inhibitor blaster delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Hot Carnauba Wax & Ceramic Sealant",
+        "desc": "Professional hot carnauba wax & ceramic sealant delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Wheel Brightener & Tire Dressing Shine",
+        "desc": "Professional wheel brightener & tire dressing shine delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Interior High-Powered Vacuum Stations",
+        "desc": "Professional interior high-powered vacuum stations delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Unlimited Monthly Wash Club Pass",
+        "desc": "Professional unlimited monthly wash club pass delivered with premium materials, licensed specialists, and total satisfaction."
+      }
+    ],
+    "why_choose_us": [
+      {
+        "icon": "\ud83d\udee1\ufe0f",
+        "title": "Licensed & Verified Specialists",
+        "desc": "Our credentialed technicians adhere strictly to local safety codes and industry standards on every project."
+      },
+      {
+        "icon": "\ud83d\udcb5",
+        "title": "Transparent Upfront Pricing",
+        "desc": "Clear, itemized quotes before work begins. No hidden travel fees, emergency surcharges, or unexpected surprises."
+      },
+      {
+        "icon": "\u26a1",
+        "title": "Responsive Communication",
+        "desc": "Direct communication from first call to final completion, respecting your schedule and property."
+      },
+      {
+        "icon": "\u2728",
+        "title": "Clean Jobsite Commitment",
+        "desc": "We treat your property with utmost respect, leaving work areas immaculate upon project completion."
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Initial Consultation",
+        "desc": "Discussing your project requirements, timeline, and exact expectations in detail."
+      },
+      {
+        "step": "02",
+        "title": "Custom Plan & Estimate",
+        "desc": "Transparent proposal outlining scope of work, materials, and milestone delivery dates."
+      },
+      {
+        "step": "03",
+        "title": "Flawless Execution",
+        "desc": "Dedicated specialists executing work strictly to code and premium trade standards."
+      },
+      {
+        "step": "04",
+        "title": "Final Inspection & Guarantee",
+        "desc": "Walkthrough inspection ensuring 100% satisfaction before project wrap-up."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What areas in and around austin tx do you cover?",
+        "a": "We proudly serve all residential and commercial clients across austin tx and neighboring metro communities."
+      },
+      {
+        "q": "How do I receive a quote for my project?",
+        "a": "Simply submit your contact information via our online estimate form or call our direct phone line. We will schedule a prompt assessment."
+      },
+      {
+        "q": "Are your technicians licensed and insured?",
+        "a": "Yes, all technicians and project managers are fully licensed, background-checked, and carry comprehensive liability insurance."
+      },
+      {
+        "q": "What warranties or guarantees do you offer?",
+        "a": "We back our workmanship with clear quality guarantees and provide all manufacturer warranties on installed equipment and materials."
+      }
+    ],
+    "contact": {
+      "phone": "",
+      "email": "contact@realmo.com",
+      "address": "Main St, austin tx, austin tx 75001",
+      "service_area": "austin tx and surrounding communities"
+    }
+  },
+  "design_system": {
+    "palette": {
+      "primary": "#dc2626",
+      "accent": "#171717",
+      "surface": "#0f172a",
+      "background": "#020617",
+      "text": "#f8fafc",
+      "muted": "#94a3b8"
+    },
+    "typography": {
+      "font_family": "Plus Jakarta Sans",
+      "font_heading": "Plus Jakarta Sans",
+      "font_url": ""
+    },
+    "logo_url": "",
+    "favicon_url": ""
+  }
+}
