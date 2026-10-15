@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "business_name": "Dental Clinic in Lagos",
+    "industry": "Dental Clinics",
+    "archetype": "electrician",
+    "city": "Lagos Nigeria",
+    "domain": "",
+    "generator_version": "2.0.0-industry-aware"
+  },
+  "strategy": {
+    "objective": "book_appointment",
+    "urgency": "medium",
+    "hero_layout": "text_image",
+    "primary_cta": {
+      "text": "Book An Appointment",
+      "href": "#contact",
+      "type": "form"
+    },
+    "secondary_cta": {
+      "text": "Meet Our Team & Services",
+      "href": "#services",
+      "type": "scroll"
+    }
+  },
+  "hero": {
+    "headline": "Dedicated Dental Clinics Services in Lagos Nigeria",
+    "subheadline": "The Best Dental Clinic In Lagos",
+    "primary_cta": {
+      "text": "Book An Appointment",
+      "href": "#contact",
+      "type": "form"
+    },
+    "secondary_cta": {
+      "text": "Meet Our Team & Services",
+      "href": "#services",
+      "type": "scroll"
+    },
+    "trust_pills": [
+      {
+        "label": "Service Guarantee",
+        "detail": "Upfront Pricing"
+      },
+      {
+        "label": "Local Presence",
+        "detail": "Serving Lagos Nigeria"
+      },
+      {
+        "label": "Quality Standard",
+        "detail": "Licensed & Insured"
+      }
+    ]
+  },
+  "sections_order": [
+    "header",
+    "hero",
+    "services",
+    "why_choose_us",
+    "process",
+    "service_areas",
+    "faq",
+    "final_cta",
+    "footer"
+  ],
+  "excluded_sections": [
+    "customer_testimonials (unverified proof omitted)",
+    "certifications_gallery (unverified badges omitted)",
+    "team_member_roster (unverified personal bios omitted)",
+    "case_studies (unverified project histories omitted)"
+  ],
+  "content": {
+    "services": [
+      {
+        "name": "Comprehensive Dental Clinics Consultations",
+        "desc": "Professional comprehensive dental clinics consultations delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Certified & Licensed Specialist Care",
+        "desc": "Professional certified & licensed specialist care delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Modern Diagnostic & Project Planning",
+        "desc": "Professional modern diagnostic & project planning delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Emergency & Priority Scheduling Support",
+        "desc": "Professional emergency & priority scheduling support delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "Preventative Maintenance & Quality Audits",
+        "desc": "Professional preventative maintenance & quality audits delivered with premium materials, licensed specialists, and total satisfaction."
+      },
+      {
+        "name": "100% Client Satisfaction Commitment",
+        "desc": "Professional 100% client satisfaction commitment delivered with premium materials, licensed specialists, and total satisfaction."
+      }
+    ],
+    "why_choose_us": [
+      {
+        "icon": "\ud83d\udee1\ufe0f",
+        "title": "Licensed & Verified Specialists",
+        "desc": "Our credentialed technicians adhere strictly to local safety codes and industry standards on every project."
+      },
+      {
+        "icon": "\ud83d\udcb5",
+        "title": "Transparent Upfront Pricing",
+        "desc": "Clear, itemized quotes before work begins. No hidden travel fees, emergency surcharges, or unexpected surprises."
+      },
+      {
+        "icon": "\u26a1",
+        "title": "Responsive Communication",
+        "desc": "Direct communication from first call to final completion, respecting your schedule and property."
+      },
+      {
+        "icon": "\u2728",
+        "title": "Clean Jobsite Commitment",
+        "desc": "We treat your property with utmost respect, leaving work areas immaculate upon project completion."
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Initial Consultation",
+        "desc": "Discussing your project requirements, timeline, and exact expectations in detail."
+      },
+      {
+        "step": "02",
+        "title": "Custom Plan & Estimate",
+        "desc": "Transparent proposal outlining scope of work, materials, and milestone delivery dates."
+      },
+      {
+        "step": "03",
+        "title": "Flawless Execution",
+        "desc": "Dedicated specialists executing work strictly to code and premium trade standards."
+      },
+      {
+        "step": "04",
+        "title": "Final Inspection & Guarantee",
+        "desc": "Walkthrough inspection ensuring 100% satisfaction before project wrap-up."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What areas in and around Lagos Nigeria do you cover?",
+        "a": "We proudly serve all residential and commercial clients across Lagos Nigeria and neighboring metro communities."
+      },
+      {
+        "q": "How do I receive a quote for my project?",
+        "a": "Simply submit your contact information via our online estimate form or call our direct phone line. We will schedule a prompt assessment."
+      },
+      {
+        "q": "Are your technicians licensed and insured?",
+        "a": "Yes, all technicians and project managers are fully licensed, background-checked, and carry comprehensive liability insurance."
+      },
+      {
+        "q": "What warranties or guarantees do you offer?",
+        "a": "We back our workmanship with clear quality guarantees and provide all manufacturer warranties on installed equipment and materials."
+      }
+    ],
+    "contact": {
+      "phone": "+2349169992452",
+      "email": "olamidetayo934@gmail.com",
+      "address": "1 .ast-main-header-bar-alignment{margin-l, Lagos Nigeria 75001",
+      "service_area": "Lagos Nigeria and surrounding communities"
+    }
+  },
+  "design_system": {
+    "palette": {
+      "primary": "#0274be",
+      "accent": "#6a0dad",
+      "surface": "#0f172a",
+      "background": "#020617",
+      "text": "#f8fafc",
+      "muted": "#94a3b8"
+    },
+    "typography": {
+      "font_family": "Montserrat",
+      "font_heading": "Montserrat",
+      "font_url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
+    },
+    "logo_url": "https://reachdentalclinic.com/wp-content/uploads/2026/04/cropped-Perfect-DRDC-Logo-136x45.png",
+    "favicon_url": ""
+  }
+}
