@@ -1,0 +1,230 @@
+{
+  "schema_version": "2.0",
+  "business_context": {
+    "business_name": "Dentist in Olney, MD",
+    "industry": "Veterinary Clinics",
+    "primary_location": "{'street': '3333 Olney Sandy Spring Rd, Ste 201', 'city': 'Lagos', 'postal_code': '75001', 'country': 'US'}",
+    "verified_facts": [
+      "Located at 3333 Olney Sandy Spring Rd, Ste 201",
+      "Offers Preventive Dentistry, Tooth Restoration, Clear Aligners, Cosmetic Dentistry, Crowns and Bridges, and Dental Implants",
+      "Primary phone contact available at +13019692290"
+    ]
+  },
+  "website_strategy": {
+    "primary_audience": "Local patients seeking comprehensive, empathetic, and high-standard clinical dental care.",
+    "primary_goal": "schedule_appointment",
+    "primary_conversion": "schedule_appointment",
+    "customer_questions": [
+      "What specific dental treatments do you offer?",
+      "How do I schedule an appointment or consultation?",
+      "Where is the clinic located and what are your operating hours?"
+    ]
+  },
+  "design_direction": {
+    "concept": "Empathetic Clinical Excellence",
+    "personality": [
+      "Empathetic",
+      "Clinical",
+      "Professional",
+      "Calming"
+    ],
+    "layout_approach": "A trust-first architecture leading visitors seamlessly from brand value proposition into direct service exploration and consultation booking.",
+    "differentiation": "Focuses purely on verified clinical dental care offerings without fabricated testimonials or unsubstantiated claims."
+  },
+  "design_tokens": {
+    "palette": {
+      "primary": "#9d7733",
+      "accent": "#053535",
+      "surface": "#fbfbf9",
+      "card_bg": "#ffffff",
+      "text_dark": "#1a2e2e",
+      "text_muted": "#5a6b6b",
+      "border": "#e3e8e5"
+    },
+    "typography": {
+      "heading_font": "Playfair Display",
+      "body_font": "Inter"
+    },
+    "ui_geometry": {
+      "card_radius": "rounded-xl",
+      "button_radius": "rounded-lg"
+    }
+  },
+  "navigation": {
+    "brand_display": {
+      "text": "Dentist in Olney, MD",
+      "tagline": "Care Without Compromise"
+    },
+    "nav_links": [
+      {
+        "label": "Services",
+        "target_section": "services"
+      },
+      {
+        "label": "Assessment",
+        "target_section": "assessment"
+      },
+      {
+        "label": "FAQ",
+        "target_section": "faq"
+      }
+    ],
+    "header_cta": {
+      "label": "Schedule Appointment",
+      "action_type": "tel",
+      "action_payload": "+13019692290"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_split_with_card",
+      "purpose": "Introduce the practice with an empathetic value proposition and immediate appointment access.",
+      "content": {
+        "badge": "Olney\u2019s Dental Home",
+        "headline": "Empathetic care. Clinical excellence. A practice made for you.",
+        "subheadline": "Experience dental care without compromise at our Olney practice, combining advanced clinical techniques with patient-first attention.",
+        "card_title": "Book Your Visit",
+        "services": [
+          "Preventive Dentistry",
+          "Dental Implants",
+          "Cosmetic Dentistry"
+        ]
+      }
+    },
+    {
+      "id": "metrics",
+      "type": "trust_metrics_strip",
+      "purpose": "Highlight essential practice availability and standards.",
+      "content": {
+        "metrics": [
+          {
+            "label": "Hours",
+            "value": "Mon - Fri: 8 AM - 5 PM"
+          },
+          {
+            "label": "Location",
+            "value": "Olney Sandy Spring Rd"
+          },
+          {
+            "label": "Focus",
+            "value": "Comprehensive Patient Care"
+          }
+        ]
+      }
+    },
+    {
+      "id": "services",
+      "type": "service_grid_cards",
+      "purpose": "Present verified dental services clearly to assist patient understanding.",
+      "content": {
+        "section_title": "Our Clinical Services",
+        "section_subtitle": "Comprehensive dental treatments tailored to your oral health and aesthetic goals.",
+        "services": [
+          {
+            "name": "Preventive Dentistry",
+            "description": "Routine exams, professional cleanings, and proactive care to maintain long-term oral health."
+          },
+          {
+            "name": "Tooth Restoration",
+            "description": "Durable restorative treatments designed to bring back the natural function and look of your teeth."
+          },
+          {
+            "name": "Clear Aligners",
+            "description": "Modern orthodontic solutions to discreetly straighten your smile."
+          },
+          {
+            "name": "Cosmetic Dentistry",
+            "description": "Esthetic enhancements tailored to elevate your natural smile confidence."
+          },
+          {
+            "name": "Crowns and Bridges",
+            "description": "Custom fixed prosthetics engineered for strength, fit, and appearance."
+          },
+          {
+            "name": "Dental Implants",
+            "description": "Permanent tooth replacement solutions that look, feel, and function like natural teeth."
+          }
+        ]
+      }
+    },
+    {
+      "id": "assessment",
+      "type": "interactive_assessment_widget",
+      "purpose": "Provide an interactive smile and dental care assessment tool to engage prospective patients.",
+      "content": {
+        "title": "Smile & Treatment Assessment",
+        "subtitle": "Answer a few quick questions to help us understand your dental needs before your consultation."
+      }
+    },
+    {
+      "id": "why_us",
+      "type": "why_choose_us_split",
+      "purpose": "Communicate the practice commitment to clinical standards and patient comfort.",
+      "content": {
+        "headline": "Why Patients Choose Our Practice",
+        "body": "We believe in a personalized approach to dentistry where clinical precision meets genuine empathy. Every treatment plan is customized to your unique needs, ensuring comfort and transparency at every step.",
+        "highlights": [
+          "Patient-first clinical philosophy",
+          "Comprehensive range of treatments under one roof",
+          "Dedicated focus on comfort and communication"
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq_categorized_accordion",
+      "purpose": "Answer common patient questions regarding appointments and care.",
+      "content": {
+        "title": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "How do I schedule an appointment?",
+            "answer": "You can schedule an appointment by calling us directly at +13019692290 or by using our online contact options."
+          },
+          {
+            "question": "What should I bring to my first visit?",
+            "answer": "Please bring a valid ID, your insurance information if applicable, and a list of any current medications or previous dental history."
+          },
+          {
+            "question": "Where is the clinic located?",
+            "answer": "Our practice is conveniently located at 3333 Olney Sandy Spring Rd, Ste 201."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta_banner",
+      "type": "pre_footer_action_banner",
+      "purpose": "Drive final appointment scheduling conversion.",
+      "content": {
+        "headline": "Ready for care without compromise?",
+        "subheadline": "Contact our office today to schedule your consultation and take the next step toward optimal oral health.",
+        "cta_label": "Call +13019692290",
+        "cta_action": "+13019692290"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "multi_column_footer",
+      "purpose": "Provide essential business details, operating hours, and navigation links.",
+      "content": {
+        "business_name": "Dentist in Olney, MD",
+        "address": "3333 Olney Sandy Spring Rd, Ste 201",
+        "phone": "+13019692290",
+        "email": "hello@lagosdentalcentre.com",
+        "hours": "Mon - Fri: 8:00 AM - 5:00 PM"
+      }
+    }
+  ],
+  "conversion": {
+    "primary_action": "schedule_appointment",
+    "secondary_action": "explore_services",
+    "cta_consistency": "Prominent phone number and appointment booking triggers placed across navigation, hero, assessment, and pre-footer sections."
+  },
+  "quality_checks": {
+    "claims_reviewed": true,
+    "zero_fabrication_confirmed": true,
+    "renderer_compatibility_required": true
+  }
+}

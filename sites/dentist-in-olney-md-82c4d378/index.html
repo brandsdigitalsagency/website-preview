@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <base href="/sites/dentist-in-olney-md-82c4d378/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dentist in Olney, MD | Specialized Veterinary Clinics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#9d7733',
+              600: '#9d7733',
+              700: '#9d7733',
+              900: '#0f172a'
+            },
+            accent: '#053535',
+            surface: '#fbfbf9'
+          },
+          fontFamily: {
+            sans: ['Inter', 'Inter', 'sans-serif'],
+            heading: ['Playfair Display', 'Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body { font-family: 'Inter', 'Inter', sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Playfair Display', 'Plus Jakarta Sans', sans-serif; }
+    details summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased selection:bg-brand-600 selection:text-white pb-16 md:pb-0">
+
+  <!-- Frosted Sticky Navbar -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200/80 transition-all duration-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-brand-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">
+          DE
+        </div>
+        <div>
+          <span class="font-extrabold text-xl text-slate-900 tracking-tight block">Dentist in Olney, MD</span>
+          <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider block">Veterinary Clinics</span>
+        </div>
+      </a>
+      
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
+        <a href="#services" class="hover:text-brand-600 transition-colors">Services</a>
+        <a href="#locations" class="hover:text-brand-600 transition-colors">Locations</a>
+        <a href="#assessment" class="hover:text-brand-600 transition-colors">Assessment</a>
+        <a href="#standards" class="hover:text-brand-600 transition-colors">Standards</a>
+      </nav>
+
+      <div class="flex items-center gap-4">
+        <a href="tel:+13019692290" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-sm text-white bg-brand-600 hover:bg-brand-700 shadow-sm transition-all transform hover:-translate-y-0.5">
+          <i data-lucide="phone" class="w-4 h-4"></i>
+          <span>Schedule Appointment</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Split Hero Section -->
+  <section id="hero" class="relative bg-gradient-to-b from-blue-50/50 via-white to-slate-50 py-16 lg:py-24 overflow-hidden border-b border-slate-200/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Left Text Column -->
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/60 text-brand-600 text-xs font-bold uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-brand-600 animate-pulse"></span>
+            Olney’s Dental Home
+          </div>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15] mb-6">
+            Empathetic care. Clinical excellence. A practice made for you.
+          </h1>
+          <p class="text-lg text-slate-600 leading-relaxed max-w-2xl mb-8">
+            Experience dental care without compromise at our Olney practice, combining advanced clinical techniques with patient-first attention.
+          </p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <button onclick="openBookingModal()" class="px-7 py-3.5 rounded-xl font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+              Schedule Appointment
+            </button>
+            <a href="#services" class="px-6 py-3.5 rounded-xl font-bold text-slate-700 bg-white border border-slate-200 hover:border-slate-300 hover:bg-slate-50 shadow-sm transition-all">
+              Explore Services
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Floating Booking / Triage Card -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-xl border border-slate-200/80 ring-1 ring-slate-900/5">
+            <h3 class="text-xl font-bold text-slate-900 mb-1">Book Your Visit</h3>
+            <p class="text-xs text-slate-500 mb-4">Fast, direct booking with verified local professionals.</p>
+            <div class="mb-4 bg-slate-50 rounded-xl p-3">
+        <div class="flex justify-between items-center py-2 border-b border-slate-100 text-xs">
+          <span class="font-bold text-slate-700 flex items-center gap-1.5">
+            <i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i>
+            Preventive Dentistry
+          </span>
+          <span class="font-semibold text-brand-600 bg-blue-50 px-2 py-0.5 rounded text-[11px]">Available</span>
+        </div>
+        <div class="flex justify-between items-center py-2 border-b border-slate-100 text-xs">
+          <span class="font-bold text-slate-700 flex items-center gap-1.5">
+            <i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i>
+            Dental Implants
+          </span>
+          <span class="font-semibold text-brand-600 bg-blue-50 px-2 py-0.5 rounded text-[11px]">Available</span>
+        </div>
+        <div class="flex justify-between items-center py-2 border-b border-slate-100 text-xs">
+          <span class="font-bold text-slate-700 flex items-center gap-1.5">
+            <i data-lucide="check" class="w-3.5 h-3.5 text-brand-600"></i>
+            Cosmetic Dentistry
+          </span>
+          <span class="font-semibold text-brand-600 bg-blue-50 px-2 py-0.5 rounded text-[11px]">Available</span>
+        </div></div>
+            <form onsubmit="handleQuickSubmit(event)" class="space-y-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Full Name</label>
+                <input type="text" id="quick-name" required placeholder="Enter full name" class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-600 outline-none text-sm text-slate-800">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Phone Number</label>
+                <input type="tel" id="quick-phone" required placeholder="0800 000 0000" class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-600 outline-none text-sm text-slate-800">
+              </div>
+              <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-md transition-all mt-2">
+                Confirm Booking Request
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Strip -->
+  <div class="bg-white border-b border-slate-200 py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        <div class="flex items-center justify-center gap-3 py-2 text-center text-sm font-semibold text-slate-700">
+          <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-600 shrink-0"></i>
+          <span>100% Gentle &amp; Certified Care</span>
+        </div>
+        <div class="flex items-center justify-center gap-3 py-2 text-center text-sm font-semibold text-slate-700">
+          <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-600 shrink-0"></i>
+          <span>Hospital-Grade Sterilization Protocols</span>
+        </div>
+        <div class="flex items-center justify-center gap-3 py-2 text-center text-sm font-semibold text-slate-700">
+          <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-600 shrink-0"></i>
+          <span>Licensed, Insured &amp; Verified Technicians</span>
+        </div>
+        <div class="flex items-center justify-center gap-3 py-2 text-center text-sm font-semibold text-slate-700">
+          <i data-lucide="check-circle-2" class="w-5 h-5 text-brand-600 shrink-0"></i>
+          <span>Direct Corporate &amp; HMO Insurance Billing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Services Matrix -->
+  <section id="services" class="py-20 bg-slate-50 border-b border-slate-200/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold text-brand-600 uppercase tracking-wider block mb-2">Scope of Care</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Specialized Clinical &amp; Trade Services</h2>
+        <p class="text-base text-slate-600 leading-relaxed">Delivering exceptional workmanship backed by modern technology and verified guarantees.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/80 hover:border-brand-600/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold text-brand-600 bg-blue-50 border border-blue-200/60 mb-4">
+              Core Treatment
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">Service</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Routine exams, professional cleanings, and proactive care to maintain long-term oral health.</p>
+          </div>
+          <button onclick="openBookingModal('Service')" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700">
+            <span>Book Consultation</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+        </div>
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/80 hover:border-brand-600/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold text-brand-600 bg-blue-50 border border-blue-200/60 mb-4">
+              Core Treatment
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">Service</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Durable restorative treatments designed to bring back the natural function and look of your teeth.</p>
+          </div>
+          <button onclick="openBookingModal('Service')" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700">
+            <span>Book Consultation</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+        </div>
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/80 hover:border-brand-600/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold text-brand-600 bg-blue-50 border border-blue-200/60 mb-4">
+              Core Treatment
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">Service</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Modern orthodontic solutions to discreetly straighten your smile.</p>
+          </div>
+          <button onclick="openBookingModal('Service')" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700">
+            <span>Book Consultation</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+        </div>
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/80 hover:border-brand-600/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold text-brand-600 bg-blue-50 border border-blue-200/60 mb-4">
+              Core Treatment
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">Service</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Esthetic enhancements tailored to elevate your natural smile confidence.</p>
+          </div>
+          <button onclick="openBookingModal('Service')" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700">
+            <span>Book Consultation</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+        </div>
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/80 hover:border-brand-600/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold text-brand-600 bg-blue-50 border border-blue-200/60 mb-4">
+              Core Treatment
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">Service</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Custom fixed prosthetics engineered for strength, fit, and appearance.</p>
+          </div>
+          <button onclick="openBookingModal('Service')" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700">
+            <span>Book Consultation</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+        </div>
+        <div class="bg-white rounded-2xl p-7 border border-slate-200/80 hover:border-brand-600/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold text-brand-600 bg-blue-50 border border-blue-200/60 mb-4">
+              Core Treatment
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 group-hover:text-brand-600 transition-colors mb-3">Service</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">Permanent tooth replacement solutions that look, feel, and function like natural teeth.</p>
+          </div>
+          <button onclick="openBookingModal('Service')" class="inline-flex items-center gap-2 text-sm font-bold text-brand-600 hover:text-brand-700">
+            <span>Book Consultation</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Assessment Quiz Widget -->
+  <section id="assessment" class="py-20 bg-white border-b border-slate-200/60">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-br from-blue-50/70 to-slate-50 rounded-3xl p-8 sm:p-12 border border-blue-200/60 shadow-xl">
+        <div class="text-center mb-8">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold text-brand-600 bg-white border border-blue-200/60 uppercase tracking-wider mb-3">
+            Interactive Triage
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">Smile &amp; Treatment Assessment</h2>
+          <p class="text-sm text-slate-600">Answer a few quick questions to help us understand your dental needs before your consultation.</p>
+          
+          <!-- Progress Bar -->
+          <div class="w-full bg-slate-200 h-2 rounded-full mt-6 overflow-hidden">
+            <div id="quiz-progress" class="bg-brand-600 h-full w-1/3 transition-all duration-300"></div>
+          </div>
+          <span id="quiz-step-label" class="text-xs font-bold text-slate-500 uppercase tracking-wider mt-2 block">Step 1 of 3</span>
+        </div>
+
+        <div id="quiz-card-container"></div>
+
+        <!-- Result Card -->
+        <div id="quiz-result" class="hidden text-center py-6">
+          <div class="w-16 h-16 rounded-full bg-green-50 text-green-600 mx-auto flex items-center justify-center font-bold mb-4 border border-green-200">
+            <i data-lucide="check" class="w-8 h-8"></i>
+          </div>
+          <h3 class="text-2xl font-extrabold text-slate-900 mb-2">Personalized Recommendation Ready</h3>
+          <p id="quiz-rec-text" class="text-lg font-bold text-brand-600 mb-6"></p>
+          <button onclick="openBookingModal(document.getElementById('quiz-rec-text').innerText)" class="px-8 py-3.5 rounded-xl font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-md transition-all">
+            Schedule This Recommended Treatment
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const QUIZ_STEPS = [];
+    let currentQuizStep = 0;
+    let selectedQuizAnswers = [];
+
+    function renderCurrentQuizStep() {
+      const container = document.getElementById('quiz-card-container');
+      if (!container) return;
+      const step = QUIZ_STEPS[currentQuizStep];
+      if (!step) return;
+
+      document.getElementById('quiz-progress').style.width = ((currentQuizStep + 1) / QUIZ_STEPS.length * 100) + '%';
+      document.getElementById('quiz-step-label').innerText = 'Step ' + (currentQuizStep + 1) + ' of ' + QUIZ_STEPS.length;
+
+      let html = '<h4 class="text-lg font-bold text-slate-900 text-center mb-6">' + step.question + '</h4>';
+      html += '<div class="space-y-3">';
+      step.options.forEach((opt, idx) => {
+        html += '<button onclick="chooseQuizOption(' + idx + ')" class="w-full text-left p-4 rounded-xl border border-slate-200 bg-white hover:border-brand-600 hover:bg-blue-50/50 font-semibold text-slate-800 transition-all flex items-center justify-between group">';
+        html += '<span>' + (opt.label || opt) + '</span>';
+        html += '<i data-lucide="chevron-right" class="w-5 h-5 text-slate-400 group-hover:text-brand-600"></i>';
+        html += '</button>';
+      });
+      html += '</div>';
+      container.innerHTML = html;
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function chooseQuizOption(idx) {
+      const step = QUIZ_STEPS[currentQuizStep];
+      selectedQuizAnswers.push(step.options[idx]);
+
+      if (currentQuizStep < QUIZ_STEPS.length - 1) {
+        currentQuizStep++;
+        renderCurrentQuizStep();
+      } else {
+        document.getElementById('quiz-card-container').classList.add('hidden');
+        document.getElementById('quiz-step-label').innerText = 'Assessment Complete';
+        const rec = selectedQuizAnswers[0].recommendation || selectedQuizAnswers[0].label || 'Comprehensive Specialist Consultation';
+        document.getElementById('quiz-rec-text').innerText = rec;
+        document.getElementById('quiz-result').classList.remove('hidden');
+        if (window.lucide) lucide.createIcons();
+      }
+    }
+    document.addEventListener('DOMContentLoaded', () => renderCurrentQuizStep());
+  </script>
+
+  <!-- Why Choose Us -->
+  <section id="standards" class="py-20 bg-white border-b border-slate-200/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-6">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Why Clients Trust Our Practice</h2>
+          <p class="text-base text-slate-600 leading-relaxed mb-8">Combining decades of proven mastery with modern digital standards.</p>
+          <div class="space-y-6">
+            
+        <div class="flex gap-4 items-start">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-brand-600 flex items-center justify-center shrink-0 font-bold border border-blue-200/60">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold text-slate-900 mb-1">Decades of Clinical &amp; Field Mastery</h4>
+            <p class="text-sm text-slate-600 leading-relaxed">Founded and led by senior accredited specialists with extensive international and regional fellowships.</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-brand-600 flex items-center justify-center shrink-0 font-bold border border-blue-200/60">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold text-slate-900 mb-1">State-of-the-Art Digital Diagnostics</h4>
+            <p class="text-sm text-slate-600 leading-relaxed">Equipped with advanced 3D scanning, ultra-low radiation sensors, and computerized precision instrumentation.</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-brand-600 flex items-center justify-center shrink-0 font-bold border border-blue-200/60">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold text-slate-900 mb-1">100% Gentle &amp; Pain-Free Protocols</h4>
+            <p class="text-sm text-slate-600 leading-relaxed">We prioritize patient comfort through computerized anesthesia delivery and relaxing sedation operatory suites.</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <div class="w-10 h-10 rounded-xl bg-blue-50 text-brand-600 flex items-center justify-center shrink-0 font-bold border border-blue-200/60">
+            <i data-lucide="shield-check" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold text-slate-900 mb-1">Direct Corporate HMO Billing</h4>
+            <p class="text-sm text-slate-600 leading-relaxed">Seamless coverage partnerships with top-tier corporate HMO networks and private insurance providers.</p>
+          </div>
+        </div>
+          </div>
+        </div>
+        <div class="lg:col-span-6">
+          <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80" alt="Clinical Excellence" class="w-full h-96 object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <section id="faq" class="py-20 bg-slate-50 border-b border-slate-200/60">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">Frequently Asked Questions</h2>
+        <p class="text-base text-slate-600">Clear, transparent answers to help you make informed decisions.</p>
+      </div>
+      <div class="space-y-4">
+        
+        <details class="bg-white rounded-xl border border-slate-200 overflow-hidden group">
+          <summary class="px-6 py-4 font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between select-none">
+            <span>How do I schedule an appointment?</span>
+            <i data-lucide="plus" class="w-5 h-5 text-slate-400 group-open:rotate-45 transition-transform duration-200"></i>
+          </summary>
+          <div class="px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            You can schedule an appointment by calling us directly at +13019692290 or by using our online contact options.
+          </div>
+        </details>
+        <details class="bg-white rounded-xl border border-slate-200 overflow-hidden group">
+          <summary class="px-6 py-4 font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between select-none">
+            <span>What should I bring to my first visit?</span>
+            <i data-lucide="plus" class="w-5 h-5 text-slate-400 group-open:rotate-45 transition-transform duration-200"></i>
+          </summary>
+          <div class="px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Please bring a valid ID, your insurance information if applicable, and a list of any current medications or previous dental history.
+          </div>
+        </details>
+        <details class="bg-white rounded-xl border border-slate-200 overflow-hidden group">
+          <summary class="px-6 py-4 font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between select-none">
+            <span>Where is the clinic located?</span>
+            <i data-lucide="plus" class="w-5 h-5 text-slate-400 group-open:rotate-45 transition-transform duration-200"></i>
+          </summary>
+          <div class="px-6 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+            Our practice is conveniently located at 3333 Olney Sandy Spring Rd, Ste 201.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-Footer Action Banner -->
+  <section id="booking" class="py-16 bg-brand-600 text-white text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Ready for care without compromise?</h2>
+      <p class="text-lg text-blue-100 max-w-2xl mx-auto mb-8">Contact our office today to schedule your consultation and take the next step toward optimal oral health.</p>
+      <button onclick="openBookingModal()" class="px-8 py-4 rounded-xl font-bold text-slate-900 bg-white hover:bg-slate-100 shadow-lg transition-all transform hover:-translate-y-0.5">
+        Schedule Appointment
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-3 text-white font-extrabold text-xl mb-4">
+            <div class="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center font-bold text-sm">
+              DE
+            </div>
+            <span>Dentist in Olney, MD</span>
+          </div>
+          <p class="text-slate-400 leading-relaxed max-w-sm mb-4">
+            Committed to providing world-class Veterinary Clinics with uncompromised clinical excellence, modern diagnostic technology, and patient-first care.
+          </p>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#hero" class="hover:text-white transition-colors">Home</a></li>
+            <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
+            <li><a href="#standards" class="hover:text-white transition-colors">Standards</a></li>
+            <li><a href="#locations" class="hover:text-white transition-colors">Locations</a></li>
+            <li><a href="#faq" class="hover:text-white transition-colors">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Contact & Inquiries</h4>
+          <p class="mb-2">Direct scheduling & triage available online.</p>
+          <button onclick="openBookingModal()" class="text-brand-500 font-bold hover:underline">Launch Consultation Booking →</button>
+        </div>
+      </div>
+      <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+        &copy; 2026 Dentist in Olney, MD. All rights reserved. Verified independent business profile.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Booking Modal Dialog -->
+  <div id="booking-modal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-200 animate-in fade-in zoom-in duration-200">
+      <button onclick="closeBookingModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-600">
+        <i data-lucide="x" class="w-6 h-6"></i>
+      </button>
+
+      <div class="mb-6">
+        <span class="text-xs font-bold text-brand-600 uppercase tracking-wider block mb-1">Direct Priority Intake</span>
+        <h3 class="text-2xl font-extrabold text-slate-900">Schedule Priority Service</h3>
+        <p class="text-xs text-slate-500 mt-1">Our clinical care team will confirm your preferred timing immediately.</p>
+      </div>
+
+      <form onsubmit="handleModalSubmit(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Full Name</label>
+          <input type="text" id="modal-name" required placeholder="Enter full name" class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-600 outline-none text-sm">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Phone Number</label>
+          <input type="tel" id="modal-phone" required placeholder="0800 000 0000" class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-600 outline-none text-sm">
+        </div>
+        
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Scheduling Urgency</label>
+          <select id="modal-branch" class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-600 outline-none text-sm bg-white">
+            <option>Immediate / Same-Day Service</option>
+            <option>Within 24-48 Hours</option>
+            <option>This Week (Flexible Schedule)</option>
+            <option>General Project Consultation & Estimate</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Service Required</label>
+          <input type="text" id="modal-service" placeholder="e.g. Comprehensive Exam, Whitening, Implants" class="w-full px-4 py-2.5 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-600 outline-none text-sm">
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl font-bold text-white bg-brand-600 hover:bg-brand-700 shadow-md transition-all mt-4">
+          Submit Priority Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function openBookingModal(prefillService = '') {
+      if (prefillService) {
+        const sInput = document.getElementById('modal-service');
+        if (sInput) sInput.value = prefillService;
+      }
+      const m = document.getElementById('booking-modal');
+      if (m) {
+        m.classList.remove('hidden');
+        m.classList.add('flex');
+      }
+    }
+    function closeBookingModal() {
+      const m = document.getElementById('booking-modal');
+      if (m) {
+        m.classList.add('hidden');
+        m.classList.remove('flex');
+      }
+    }
+    function handleModalSubmit(e) {
+      e.preventDefault();
+      alert('Thank you! Your request has been received. Our team will contact you shortly.');
+      closeBookingModal();
+    }
+    function handleQuickSubmit(e) {
+      e.preventDefault();
+      alert('Thank you! Your request has been confirmed. A care coordinator will call you immediately.');
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>

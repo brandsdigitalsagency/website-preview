@@ -1,0 +1,75 @@
+{
+  "business": {
+    "name": "Dentist in Olney, MD",
+    "industry": "Veterinary Clinics",
+    "sub_industry_focus": "residential_and_commercial",
+    "location": {
+      "street": "3333 Olney Sandy Spring Rd, Ste 201",
+      "city": "Lagos",
+      "postal_code": "75001",
+      "country": "US"
+    },
+    "contact": {
+      "primary_phone": "+13019692290",
+      "emergency_phone": "+13019692290",
+      "email": "hello@lagosdentalcentre.com"
+    },
+    "operating_hours": {
+      "regular": "Mon - Fri: 8:00 AM - 5:00 PM",
+      "is_24_7_emergency": false
+    },
+    "branches": [],
+    "verified_services": [
+      {
+        "name": "Preventive Dentistry"
+      },
+      {
+        "name": "Tooth Restoration"
+      },
+      {
+        "name": "Clear Aligners"
+      },
+      {
+        "name": "Cosmetic Dentistry"
+      },
+      {
+        "name": "Crowns and Bridges"
+      },
+      {
+        "name": "Dental Implants"
+      }
+    ],
+    "verified_differentiators": []
+  },
+  "brand": {
+    "logo_url": "https://cdn.prod.website-files.com/6a170fcbb1269af5a1fd9a9e/6a500380bcb25de74241826f_logo%20(3).png",
+    "favicon_url": null,
+    "observed_palette": {
+      "primary": "#9d7733",
+      "accent": "#053535",
+      "palette_source": "meta_theme"
+    },
+    "observed_fonts": [
+      "Playfair Display"
+    ]
+  },
+  "existing_website": {
+    "url": "",
+    "observed_headline": "Olney\u2019s dental home for care without compromiseEmpathetic care. Clinical excellence.A practice made for you.",
+    "critique_findings": [
+      "Legacy layout with poor mobile conversion hierarchy",
+      "Missing interactive assessment or scope estimation widget",
+      "Unclear multi-branch directory and contact paths"
+    ]
+  },
+  "generation_goal": {
+    "primary_conversion": "schedule_appointment",
+    "secondary_conversion": "explore_services",
+    "goal_evidence": "Patient clinical care requires scheduled consultation & diagnostic scan"
+  },
+  "constraints": {
+    "invented_claims_allowed": false,
+    "unsupported_sections_allowed": false,
+    "target_renderer": "deterministic_component_engine"
+  }
+}

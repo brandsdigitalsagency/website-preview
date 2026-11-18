@@ -1,0 +1,15 @@
+{
+  "score": 85,
+  "passed": true,
+  "breakdown": {
+    "personalization": 10,
+    "visual_quality": 15,
+    "industry_fit": 10,
+    "conversion_logic": 10,
+    "content_accuracy": 15,
+    "brand_fidelity": 10,
+    "originality": 10,
+    "technical_quality": 5
+  },
+  "feedback": []
+}
