@@ -1,0 +1,75 @@
+{
+  "business": {
+    "name": "24/7 Emergency Plumber in Dallas",
+    "industry": "Plumbing",
+    "sub_industry_focus": "residential_and_commercial",
+    "location": {
+      "street": "40 border-b border-white/10 bg-[#0F1F1D]/9",
+      "city": "Dallas, TX",
+      "postal_code": "75001",
+      "country": "US"
+    },
+    "contact": {
+      "primary_phone": "+18443978298",
+      "emergency_phone": "+18443978298",
+      "email": "contact@plumbinghands.com"
+    },
+    "operating_hours": {
+      "regular": "Mon - Fri: 8:00 AM - 5:00 PM",
+      "is_24_7_emergency": true
+    },
+    "branches": [],
+    "verified_services": [
+      {
+        "name": "Burst pipe emergency help"
+      },
+      {
+        "name": "Burst pipe emergency"
+      },
+      {
+        "name": "24-Hour Emergency Plumber"
+      },
+      {
+        "name": "Emergency Drain Cleaning"
+      },
+      {
+        "name": "Main Sewer Line Clog"
+      },
+      {
+        "name": "Toilet Overflow Emergency"
+      }
+    ],
+    "verified_differentiators": []
+  },
+  "brand": {
+    "logo_url": null,
+    "favicon_url": null,
+    "observed_palette": {
+      "primary": "#4fd1c5",
+      "accent": "#f0b429",
+      "palette_source": "meta_theme"
+    },
+    "observed_fonts": [
+      "Roboto"
+    ]
+  },
+  "existing_website": {
+    "url": "",
+    "observed_headline": "DFW's Fastest Emergency Plumber \u2013 24/7",
+    "critique_findings": [
+      "Legacy layout with poor mobile conversion hierarchy",
+      "Missing interactive assessment or scope estimation widget",
+      "Unclear multi-branch directory and contact paths"
+    ]
+  },
+  "generation_goal": {
+    "primary_conversion": "emergency_phone_call",
+    "secondary_conversion": "direct_phone_call",
+    "goal_evidence": "Acute water leaks and plumbing failures demand rapid click-to-call technician dispatch"
+  },
+  "constraints": {
+    "invented_claims_allowed": false,
+    "unsupported_sections_allowed": false,
+    "target_renderer": "deterministic_component_engine"
+  }
+}

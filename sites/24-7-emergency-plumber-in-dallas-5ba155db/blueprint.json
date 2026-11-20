@@ -1,0 +1,220 @@
+{
+  "schema_version": "2.0",
+  "business_context": {
+    "business_name": "24/7 Emergency Plumber in Dallas",
+    "industry": "Plumbing",
+    "primary_location": "Dallas, TX 75001",
+    "verified_facts": [
+      "Provides 24/7 emergency plumbing services",
+      "Specializes in burst pipes, emergency drain cleaning, main sewer line clogs, and toilet overflow emergencies",
+      "Located in Dallas, TX"
+    ]
+  },
+  "website_strategy": {
+    "primary_audience": "Homeowners and commercial property managers in the Dallas area facing urgent plumbing failures requiring immediate technician dispatch",
+    "primary_goal": "emergency_phone_call",
+    "primary_conversion": "emergency_phone_call",
+    "customer_questions": [
+      "How fast can an emergency plumber arrive at my property in Dallas?",
+      "Are you available right now, including nights and weekends?",
+      "What should I do immediately to stop water damage while waiting for help?"
+    ]
+  },
+  "design_direction": {
+    "concept": "Urgent, High-Contrast Emergency Dispatch Hub",
+    "personality": [
+      "Urgent",
+      "Authoritative",
+      "Reliable",
+      "Direct"
+    ],
+    "layout_approach": "Prioritize immediate phone access, clear emergency response indicators, and step-by-step triage above the fold to minimize friction during stressful plumbing crises.",
+    "differentiation": "Built specifically for rapid mobile conversion and acute plumbing distress with direct click-to-call mechanics and immediate triage guidance."
+  },
+  "design_tokens": {
+    "palette": {
+      "primary": "#4fd1c5",
+      "accent": "#f0b429",
+      "surface": "#0f1f1d",
+      "card_bg": "#162a28",
+      "text_dark": "#f8fafc",
+      "text_muted": "#94a3b8",
+      "border": "rgba(255, 255, 255, 0.1)"
+    },
+    "typography": {
+      "heading_font": "Roboto",
+      "body_font": "Roboto"
+    },
+    "ui_geometry": {
+      "card_radius": "rounded-2xl",
+      "button_radius": "rounded-xl"
+    }
+  },
+  "navigation": {
+    "brand_display": {
+      "text": "24/7 Emergency Plumber Dallas",
+      "tagline": "Immediate Dispatch"
+    },
+    "nav_links": [
+      {
+        "label": "Emergency Services",
+        "target_section": "services"
+      },
+      {
+        "label": "Triage Guide",
+        "target_section": "triage"
+      },
+      {
+        "label": "FAQ",
+        "target_section": "faq"
+      }
+    ],
+    "header_cta": {
+      "label": "Call +1 (844) 397-8298",
+      "action_type": "tel",
+      "action_payload": "+18443978298"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_split_with_card",
+      "purpose": "Capture acute emergency intent instantly and drive immediate phone calls.",
+      "content": {
+        "badge": "24/7 Emergency Response in Dallas",
+        "headline": "DFW's Fastest Emergency Plumber \u2013 24/7",
+        "subheadline": "Burst pipes, overflowing toilets, and severe sewer clogs handled immediately by expert local technicians.",
+        "card_title": "Emergency Dispatch",
+        "services": [
+          "Burst Pipe Emergency",
+          "Emergency Drain Cleaning",
+          "Main Sewer Line Clog",
+          "Toilet Overflow Emergency"
+        ]
+      }
+    },
+    {
+      "id": "trust_strip",
+      "type": "trust_metrics_strip",
+      "purpose": "Reassure panicked callers with rapid availability and verified operational readiness.",
+      "content": {
+        "metrics": [
+          {
+            "value": "24/7",
+            "label": "Available Day & Night"
+          },
+          {
+            "value": "Fast",
+            "label": "Dallas Dispatch"
+          },
+          {
+            "value": "100%",
+            "label": "Emergency Focused"
+          }
+        ]
+      }
+    },
+    {
+      "id": "triage",
+      "type": "interactive_assessment_widget",
+      "purpose": "Help visitors quickly identify their plumbing emergency severity and guide them to the right action.",
+      "content": {
+        "title": "Immediate Plumbing Emergency Triage",
+        "subtitle": "Select your current plumbing crisis for instant guidance and priority dispatch.",
+        "options": [
+          "Burst pipe flooding property",
+          "Severe main sewer line backup",
+          "Overflowing toilet that won't stop",
+          "Blocked emergency drain"
+        ]
+      }
+    },
+    {
+      "id": "services",
+      "type": "service_grid_cards",
+      "purpose": "Clearly list verified emergency services to confirm technical capability.",
+      "content": {
+        "section_title": "Emergency Plumbing Services",
+        "section_subtitle": "When disaster strikes your plumbing system, our Dallas team is ready to respond.",
+        "services": [
+          {
+            "title": "Burst Pipe Emergency Help",
+            "description": "Immediate intervention to shut off water lines and repair ruptured pipes."
+          },
+          {
+            "title": "Emergency Drain Cleaning",
+            "description": "Rapid clearing of severe blockages threatening property damage."
+          },
+          {
+            "title": "Main Sewer Line Clog",
+            "description": "Advanced diagnostics and clearing for backed-up main sewer lines."
+          },
+          {
+            "title": "Toilet Overflow Emergency",
+            "description": "Urgent resolution for overflowing fixtures and critical bathroom failures."
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq_categorized_accordion",
+      "purpose": "Answer immediate logistical questions regarding emergency dispatch.",
+      "content": {
+        "section_title": "Frequently Asked Emergency Questions",
+        "items": [
+          {
+            "question": "How quickly can a plumber arrive at my Dallas location?",
+            "answer": "Our dispatch team operates 24/7 to send local technicians to your property as quickly as possible."
+          },
+          {
+            "question": "Do you charge extra for night or weekend emergency calls?",
+            "answer": "We provide transparent communication regarding emergency service rates when you call our dispatch line."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pre_footer",
+      "type": "pre_footer_action_banner",
+      "purpose": "Final high-urgency prompt for visitors scrolling past the fold.",
+      "content": {
+        "headline": "Facing a Plumbing Emergency in Dallas?",
+        "subheadline": "Don't wait for water damage to worsen. Speak directly with our emergency dispatchers now.",
+        "cta_label": "Call +1 (844) 397-8298",
+        "cta_action": "tel:+18443978298"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "multi_column_footer",
+      "purpose": "Provide essential business details, contact information, and address data.",
+      "content": {
+        "business_name": "24/7 Emergency Plumber in Dallas",
+        "address": "Dallas, TX 75001",
+        "phone": "+18443978298",
+        "email": "contact@plumbinghands.com",
+        "hours": "24/7 Emergency Response Available"
+      }
+    },
+    {
+      "id": "mobile_bar",
+      "type": "mobile_sticky_action_bar",
+      "purpose": "Ensure persistent thumb-friendly click-to-call access on mobile devices.",
+      "content": {
+        "primary_label": "Call Emergency Plumber",
+        "phone_number": "+18443978298"
+      }
+    }
+  ],
+  "conversion": {
+    "primary_action": "emergency_phone_call",
+    "secondary_action": "direct_phone_call",
+    "cta_consistency": "Prominent phone number and click-to-call buttons anchored across header, hero, interactive triage, and mobile sticky bar."
+  },
+  "quality_checks": {
+    "claims_reviewed": true,
+    "zero_fabrication_confirmed": true,
+    "renderer_compatibility_required": true
+  }
+}

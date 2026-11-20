@@ -1,0 +1,34 @@
+/* Resilient Modern Design Tokens & Utilities */
+:root {
+  --brand-50: #f0f7ff;
+  --brand-600: #4fd1c5;
+  --brand-700: #4fd1c5;
+  --accent: #f0b429;
+  --surface: #0f1f1d;
+  --card-bg: #162a28;
+  --text-dark: #f8fafc;
+  --text-muted: #94a3b8;
+  --border: rgba(255, 255, 255, 0.1);
+}
+* { box-sizing: border-box; }
+body { font-family: 'Inter', -apple-system, sans-serif; color: var(--text-dark); background-color: var(--surface); margin: 0; line-height: 1.5; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Plus Jakarta Sans', sans-serif; color: var(--text-dark); }
+a { text-decoration: none; color: inherit; }
+.bg-brand-600 { background-color: var(--brand-600) !important; }
+.text-brand-600 { color: var(--brand-600) !important; }
+.border-brand-600 { border-color: var(--brand-600) !important; }
+.bg-white { background-color: #ffffff; }
+.bg-slate-50 { background-color: #f8fafc; }
+.text-slate-900 { color: #0f172a; }
+.text-slate-600 { color: #475569; }
+.text-slate-500 { color: #64748b; }
+.border-slate-200 { border-color: #e2e8f0; }
+.rounded-xl { border-radius: 0.75rem; }
+.rounded-2xl { border-radius: 1rem; }
+.rounded-full { border-radius: 9999px; }
+.shadow-sm { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); }
+.shadow-md { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+.shadow-xl { box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); }
+.max-w-7xl { max-width: 80rem; margin-left: auto; margin-right: auto; }
+.max-w-4xl { max-width: 56rem; margin-left: auto; margin-right: auto; }
+.max-w-3xl { max-width: 48rem; margin-left: auto; margin-right: auto; }
