@@ -1,0 +1,75 @@
+{
+  "business": {
+    "name": "A+ BBB Rated Dallas &amp; Richardson Plumbers",
+    "industry": "Plumbing",
+    "sub_industry_focus": "residential_and_commercial",
+    "location": {
+      "street": "521 Sterling Drive\",\"addressLocality\":\"Richardson\",\"a",
+      "city": "Dallas, TX",
+      "postal_code": "75001",
+      "country": "US"
+    },
+    "contact": {
+      "primary_phone": "4695250000",
+      "emergency_phone": "4695250000",
+      "email": "pureplumbingdfw@gmail.com"
+    },
+    "operating_hours": {
+      "regular": "Mon - Fri: 8:00 AM - 5:00 PM",
+      "is_24_7_emergency": true
+    },
+    "branches": [],
+    "verified_services": [
+      {
+        "name": "Plumbing Services."
+      },
+      {
+        "name": "Plumbing Repair."
+      },
+      {
+        "name": "Water Leak Repair."
+      },
+      {
+        "name": "Pipe Leak Repair."
+      },
+      {
+        "name": "Slab Leak Repair."
+      },
+      {
+        "name": "Water Line Repair."
+      }
+    ],
+    "verified_differentiators": []
+  },
+  "brand": {
+    "logo_url": "https://www.pureplumbingdfw.com/wp-content/uploads/pure-plumbing-logo.svg",
+    "favicon_url": null,
+    "observed_palette": {
+      "primary": "#00384e",
+      "accent": "#0199d6",
+      "palette_source": "meta_theme"
+    },
+    "observed_fonts": [
+      "Roboto"
+    ]
+  },
+  "existing_website": {
+    "url": "",
+    "observed_headline": "A+ Rated Plumbers in Richardson & Dallas",
+    "critique_findings": [
+      "Legacy layout with poor mobile conversion hierarchy",
+      "Missing interactive assessment or scope estimation widget",
+      "Unclear multi-branch directory and contact paths"
+    ]
+  },
+  "generation_goal": {
+    "primary_conversion": "emergency_phone_call",
+    "secondary_conversion": "direct_phone_call",
+    "goal_evidence": "Acute water leaks and plumbing failures demand rapid click-to-call technician dispatch"
+  },
+  "constraints": {
+    "invented_claims_allowed": false,
+    "unsupported_sections_allowed": false,
+    "target_renderer": "deterministic_component_engine"
+  }
+}

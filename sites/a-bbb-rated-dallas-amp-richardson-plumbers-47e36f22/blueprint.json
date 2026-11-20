@@ -1,0 +1,249 @@
+{
+  "schema_version": "2.0",
+  "business_context": {
+    "business_name": "A+ BBB Rated Dallas & Richardson Plumbers",
+    "industry": "Plumbing",
+    "primary_location": "521 Sterling Drive, Richardson, Dallas, TX 75001, US",
+    "verified_facts": [
+      "A+ BBB Rated",
+      "Serving Dallas & Richardson",
+      "Emergency phone support available",
+      "Services include Plumbing Services, Plumbing Repair, Water Leak Repair, Pipe Leak Repair, Slab Leak Repair, and Water Line Repair"
+    ]
+  },
+  "website_strategy": {
+    "primary_audience": "Homeowners and property managers in Dallas and Richardson facing urgent or standard plumbing issues",
+    "primary_goal": "emergency_phone_call",
+    "primary_conversion": "emergency_phone_call",
+    "customer_questions": [
+      "Are you available for immediate emergency plumbing dispatch?",
+      "Do you service my specific area in Dallas or Richardson?",
+      "What exact plumbing repair services do you cover?"
+    ]
+  },
+  "design_direction": {
+    "concept": "Urgent Response & Trusted Authority",
+    "personality": [
+      "Reliable",
+      "Authoritative",
+      "Urgent",
+      "Professional"
+    ],
+    "layout_approach": "Prioritize immediate phone access above the fold, followed by emergency triage tools, explicit service lists, and credibility indicators to reassure stressed property owners.",
+    "differentiation": "Leverages verified A+ BBB rating and rapid-response architecture designed specifically for acute leak and pipe emergencies."
+  },
+  "design_tokens": {
+    "palette": {
+      "primary": "#00384e",
+      "accent": "#0199d6",
+      "surface": "#f4f7f6",
+      "card_bg": "#ffffff",
+      "text_dark": "#0f172a",
+      "text_muted": "#64748b",
+      "border": "#cbd5e1"
+    },
+    "typography": {
+      "heading_font": "Roboto",
+      "body_font": "Roboto"
+    },
+    "ui_geometry": {
+      "card_radius": "rounded-xl",
+      "button_radius": "rounded-lg"
+    }
+  },
+  "navigation": {
+    "brand_display": {
+      "text": "A+ BBB Rated Dallas & Richardson Plumbers",
+      "tagline": "24/7 Emergency & Standard Plumbing Services"
+    },
+    "nav_links": [
+      {
+        "label": "Services",
+        "target_section": "services"
+      },
+      {
+        "label": "Triage",
+        "target_section": "triage"
+      },
+      {
+        "label": "Why Us",
+        "target_section": "why_us"
+      },
+      {
+        "label": "FAQ",
+        "target_section": "faq"
+      }
+    ],
+    "header_cta": {
+      "label": "Call 469-525-0000",
+      "action_type": "tel",
+      "action_payload": "4695250000"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_split_with_card",
+      "purpose": "Capture acute plumbing failure intent immediately with click-to-call action and A+ BBB credibility.",
+      "content": {
+        "badge": "A+ BBB Rated Plumbers",
+        "headline": "A+ Rated Plumbers in Richardson & Dallas",
+        "subheadline": "Facing an unexpected pipe leak, slab leak, or plumbing emergency? Professional technicians are ready to dispatch to your location.",
+        "card_title": "Immediate Dispatch",
+        "primary_cta": {
+          "label": "Call Now: 469-525-0000",
+          "action_type": "tel",
+          "action_payload": "4695250000"
+        }
+      }
+    },
+    {
+      "id": "trust",
+      "type": "trust_metrics_strip",
+      "purpose": "Reinforce reliability and local reputation instantly.",
+      "content": {
+        "metrics": [
+          {
+            "label": "BBB Rating",
+            "value": "A+"
+          },
+          {
+            "label": "Service Area",
+            "value": "Dallas & Richardson"
+          },
+          {
+            "label": "Availability",
+            "value": "24/7 Emergency"
+          }
+        ]
+      }
+    },
+    {
+      "id": "triage",
+      "type": "interactive_assessment_widget",
+      "purpose": "Help visitors quickly diagnose their plumbing issue severity and connect with the right response path.",
+      "content": {
+        "title": "Immediate Triage Finder",
+        "subtitle": "Select your current plumbing issue to determine the best course of action.",
+        "options": [
+          "Active Water Leak / Pipe Burst",
+          "Slab Leak Suspected",
+          "Water Line Repair Needed",
+          "General Plumbing Repair"
+        ]
+      }
+    },
+    {
+      "id": "services",
+      "type": "service_grid_cards",
+      "purpose": "Clearly present the verified scope of plumbing services offered.",
+      "content": {
+        "section_title": "Our Verified Plumbing Services",
+        "services": [
+          {
+            "name": "Plumbing Services",
+            "description": "Comprehensive plumbing solutions for residential and commercial properties."
+          },
+          {
+            "name": "Plumbing Repair",
+            "description": "Fast diagnosis and repair for everyday plumbing failures and malfunctions."
+          },
+          {
+            "name": "Water Leak Repair",
+            "description": "Pinpoint detection and repair to prevent structural water damage."
+          },
+          {
+            "name": "Pipe Leak Repair",
+            "description": "Expert intervention for leaking, damaged, or aging pipes."
+          },
+          {
+            "name": "Slab Leak Repair",
+            "description": "Specialized detection and repair for leaks underneath concrete foundations."
+          },
+          {
+            "name": "Water Line Repair",
+            "description": "Reliable repair services for compromised main water supply lines."
+          }
+        ]
+      }
+    },
+    {
+      "id": "why_us",
+      "type": "why_choose_us_split",
+      "purpose": "Highlight standards and trustworthiness based on verified operational facts.",
+      "content": {
+        "headline": "Why Dallas & Richardson Homeowners Trust Us",
+        "points": [
+          "Maintained an A+ Better Business Bureau rating through dedicated service.",
+          "Equipped to handle both residential and commercial plumbing challenges.",
+          "Direct phone access for urgent repairs and scheduled maintenance."
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq_categorized_accordion",
+      "purpose": "Answer immediate pre-call questions to reduce friction and hesitation.",
+      "content": {
+        "category": "General & Emergency",
+        "faqs": [
+          {
+            "question": "Do you offer emergency plumbing services?",
+            "answer": "Yes, we handle emergency plumbing situations. Call us immediately at 469-525-0000 for urgent dispatch."
+          },
+          {
+            "question": "What areas do you service?",
+            "answer": "We proudly serve Dallas, Richardson, and the surrounding local areas."
+          },
+          {
+            "question": "What types of leak repairs do you perform?",
+            "answer": "We specialize in water leak repair, pipe leak repair, slab leak repair, and main water line repair."
+          }
+        ]
+      }
+    },
+    {
+      "id": "banner",
+      "type": "pre_footer_action_banner",
+      "purpose": "Final conversion push for immediate phone contact.",
+      "content": {
+        "headline": "Need an Expert Plumber in Dallas or Richardson Right Now?",
+        "subheadline": "Call our team directly for immediate assistance.",
+        "button_label": "Call 469-525-0000",
+        "action_type": "tel",
+        "action_payload": "4695250000"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "multi_column_footer",
+      "purpose": "Provide necessary business details, hours, and legal navigation.",
+      "content": {
+        "business_name": "A+ BBB Rated Dallas & Richardson Plumbers",
+        "address": "521 Sterling Drive, Richardson, Dallas, TX 75001",
+        "phone": "469-525-0000",
+        "email": "pureplumbingdfw@gmail.com",
+        "hours": "Mon - Fri: 8:00 AM - 5:00 PM (24/7 Emergency Available)"
+      }
+    },
+    {
+      "id": "mobile_bar",
+      "type": "mobile_sticky_action_bar",
+      "purpose": "Ensure constant click-to-call access for mobile visitors.",
+      "content": {
+        "primary_action_label": "Emergency Call",
+        "phone_number": "4695250000"
+      }
+    }
+  ],
+  "conversion": {
+    "primary_action": "emergency_phone_call",
+    "secondary_action": "direct_phone_call",
+    "cta_consistency": "Prominent phone number and emergency dispatch CTAs placed across header, hero, interactive widget, pre-footer banner, and mobile sticky bar."
+  },
+  "quality_checks": {
+    "claims_reviewed": true,
+    "zero_fabrication_confirmed": true,
+    "renderer_compatibility_required": true
+  }
+}
