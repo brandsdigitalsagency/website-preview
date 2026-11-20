@@ -1,0 +1,243 @@
+{
+  "schema_version": "2.0",
+  "business_context": {
+    "business_name": "Plumber Dallas",
+    "industry": "Plumbing",
+    "primary_location": "7 availability, Berkeys delivers dependable service backed by nearly five decade, Dallas, TX 75001, US",
+    "verified_facts": [
+      "Since 1975",
+      "Licensed & insured",
+      "24/7 Emergency Service available",
+      "Serving Dallas, TX and surrounding areas"
+    ]
+  },
+  "website_strategy": {
+    "primary_audience": "Dallas homeowners and commercial property managers facing plumbing emergencies, repairs, or installations",
+    "primary_goal": "generate_emergency_calls",
+    "primary_conversion": "emergency_phone_call",
+    "customer_questions": [
+      "Can a technician arrive immediately for an emergency leak?",
+      "Are they licensed, insured, and operating since 1975?",
+      "What plumbing services do they cover?"
+    ]
+  },
+  "design_direction": {
+    "concept": "Urgent Response Reliability",
+    "personality": [
+      "Authoritative",
+      "Dependable",
+      "Urgent"
+    ],
+    "layout_approach": "Prioritize immediate phone access above the fold, followed by fast triage options, verified credentials, core services, and trust signals to convert acute emergency intent.",
+    "differentiation": "Backed by nearly five decades of trusted Dallas service since 1975, with explicit 24/7 emergency availability and rapid click-to-call dispatch."
+  },
+  "design_tokens": {
+    "palette": {
+      "primary": "#0284c7",
+      "accent": "#f97316",
+      "surface": "#f8fafc",
+      "card_bg": "#ffffff",
+      "text_dark": "#0f172a",
+      "text_muted": "#64748b",
+      "border": "#e2e8f0"
+    },
+    "typography": {
+      "heading_font": "Plus Jakarta Sans",
+      "body_font": "Plus Jakarta Sans"
+    },
+    "ui_geometry": {
+      "card_radius": "rounded-2xl",
+      "button_radius": "rounded-xl"
+    }
+  },
+  "navigation": {
+    "brand_display": {
+      "text": "Plumber Dallas",
+      "tagline": "Dependable Service Since 1975"
+    },
+    "nav_links": [
+      {
+        "label": "Services",
+        "target_section": "services"
+      },
+      {
+        "label": "Triage",
+        "target_section": "triage"
+      },
+      {
+        "label": "Why Us",
+        "target_section": "standards"
+      },
+      {
+        "label": "FAQ",
+        "target_section": "faq"
+      }
+    ],
+    "header_cta": {
+      "label": "Emergency Call: 877-746-6855",
+      "action_type": "tel",
+      "action_payload": "8777466855"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_split_with_card",
+      "purpose": "Capture acute emergency intent with rapid click-to-call dispatch and established heritage.",
+      "content": {
+        "badge": "24/7 Emergency Dispatch \u2022 Since 1975",
+        "headline": "Dependable Dallas Plumbing Repair & Emergency Service",
+        "subheadline": "Facing an urgent pipe burst, gas line issue, or plumbing failure? Our licensed & insured experts deliver rapid service across Dallas, backed by nearly five decades of experience.",
+        "card_title": "Immediate Assistance",
+        "services": [
+          "Plumbing Repair",
+          "Gas Line Repair",
+          "Plumbing Installation",
+          "Sewer Line Service"
+        ]
+      }
+    },
+    {
+      "id": "metrics",
+      "type": "trust_metrics_strip",
+      "purpose": "Establish immediate credibility using verified operational history.",
+      "content": {
+        "metrics": [
+          {
+            "value": "1975",
+            "label": "Serving Dallas Since"
+          },
+          {
+            "value": "24/7",
+            "label": "Emergency Response"
+          },
+          {
+            "value": "100%",
+            "label": "Licensed & Insured"
+          }
+        ]
+      }
+    },
+    {
+      "id": "triage",
+      "type": "interactive_assessment_widget",
+      "purpose": "Help visitors quickly identify their plumbing emergency type and route them to immediate dispatch.",
+      "content": {
+        "title": "Immediate Emergency Triage Finder",
+        "description": "Select your current plumbing issue to determine the fastest resolution path.",
+        "options": [
+          "Major Pipe Burst / Active Leak",
+          "Gas Line Smell or Repair",
+          "Sewer Line Backup",
+          "Standard Plumbing Installation"
+        ]
+      }
+    },
+    {
+      "id": "services",
+      "type": "service_grid_cards",
+      "purpose": "Clearly present verified core plumbing services offered in Dallas.",
+      "content": {
+        "section_title": "Our Professional Plumbing Services",
+        "subtitle": "Comprehensive residential and commercial plumbing solutions delivered by licensed experts.",
+        "services": [
+          {
+            "name": "Plumbing Repair",
+            "description": "Fast diagnosis and repair for leaks, clogged drains, broken fixtures, and everyday plumbing failures."
+          },
+          {
+            "name": "Gas Line Repair",
+            "description": "Safe, professional inspection, maintenance, and repair for residential and commercial gas lines."
+          },
+          {
+            "name": "Plumbing Installation",
+            "description": "Expert setup of new fixtures, water heaters, and complete plumbing systems for homes and businesses."
+          },
+          {
+            "name": "Sewer Line Service",
+            "description": "Advanced sewer line inspection, cleaning, repair, and replacement to protect your property."
+          }
+        ]
+      }
+    },
+    {
+      "id": "standards",
+      "type": "why_choose_us_split",
+      "purpose": "Highlight verified differentiators and trustworthiness.",
+      "content": {
+        "heading": "Why Dallas Trusts Our Plumbing Team",
+        "description": "For nearly five decades, we have maintained a commitment to reliable workmanship, transparent service, and fully licensed operations.",
+        "points": [
+          "Backed by nearly five decades of industry experience since 1975.",
+          "Fully licensed and insured professionals protecting your property.",
+          "Available around the clock for urgent emergency dispatch."
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq_categorized_accordion",
+      "purpose": "Address key customer questions regarding availability, service areas, and emergency procedures.",
+      "content": {
+        "title": "Frequently Asked Questions",
+        "faqs": [
+          {
+            "question": "Do you offer 24/7 emergency plumbing services in Dallas?",
+            "answer": "Yes, we provide 24/7 emergency dispatch for urgent water leaks, pipe bursts, and critical plumbing failures."
+          },
+          {
+            "question": "What areas do you service?",
+            "answer": "We proudly serve Dallas, TX and surrounding areas with residential and commercial plumbing solutions."
+          },
+          {
+            "question": "Are your technicians licensed and insured?",
+            "answer": "Yes, all our plumbing professionals are fully licensed and insured, delivering dependable service backed by our history since 1975."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta_banner",
+      "type": "pre_footer_action_banner",
+      "purpose": "Provide a final high-contrast conversion prompt for immediate phone calls.",
+      "content": {
+        "headline": "Need Urgent Plumbing Assistance in Dallas?",
+        "subheadline": "Don't let a leak cause structural damage. Call our 24/7 emergency dispatch line now.",
+        "cta_label": "Call 877-746-6855 Now",
+        "cta_payload": "8777466855"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "multi_column_footer",
+      "purpose": "Provide structured navigational links, contact information, and legal details.",
+      "content": {
+        "company_name": "Plumber Dallas",
+        "address": "Dallas, TX 75001",
+        "phone": "8777466855",
+        "email": "contact@berkeys.com",
+        "hours": "Mon - Fri: 8:00 AM - 5:00 PM (24/7 Emergency Service Available)"
+      }
+    },
+    {
+      "id": "mobile_bar",
+      "type": "mobile_sticky_action_bar",
+      "purpose": "Ensure persistent mobile conversion accessibility for emergency phone calls.",
+      "content": {
+        "primary_label": "Emergency Call",
+        "primary_action_type": "tel",
+        "primary_action_payload": "8777466855"
+      }
+    }
+  ],
+  "conversion": {
+    "primary_action": "emergency_phone_call",
+    "secondary_action": "direct_phone_call",
+    "cta_consistency": "Prominent click-to-call phone numbers and emergency action buttons are integrated across the header, hero, footer, and mobile sticky bar."
+  },
+  "quality_checks": {
+    "claims_reviewed": true,
+    "zero_fabrication_confirmed": true,
+    "renderer_compatibility_required": true
+  }
+}

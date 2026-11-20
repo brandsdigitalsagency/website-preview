@@ -1,0 +1,78 @@
+{
+  "business": {
+    "name": "Plumber Dallas",
+    "industry": "Plumbing",
+    "sub_industry_focus": "residential_and_commercial",
+    "location": {
+      "street": "7 availability, Berkeys delivers dependable service backed by nearly five decade",
+      "city": "Dallas, TX",
+      "postal_code": "75001",
+      "country": "US"
+    },
+    "contact": {
+      "primary_phone": "8777466855",
+      "emergency_phone": "8777466855",
+      "email": "contact@berkeys.com"
+    },
+    "operating_hours": {
+      "regular": "Mon - Fri: 8:00 AM - 5:00 PM",
+      "is_24_7_emergency": true
+    },
+    "branches": [],
+    "verified_services": [
+      {
+        "name": "Service Areas"
+      },
+      {
+        "name": "Service Hours"
+      },
+      {
+        "name": "Plumbing Repair"
+      },
+      {
+        "name": "Gas Line Repair"
+      },
+      {
+        "name": "Plumbing Installation"
+      },
+      {
+        "name": "Sewer Line Service"
+      }
+    ],
+    "verified_differentiators": [
+      "Since 1975",
+      "Licensed & insured"
+    ]
+  },
+  "brand": {
+    "logo_url": null,
+    "favicon_url": null,
+    "observed_palette": {
+      "primary": "#0284c7",
+      "accent": "#f97316",
+      "palette_source": "meta_theme"
+    },
+    "observed_fonts": [
+      "Plus Jakarta Sans"
+    ]
+  },
+  "existing_website": {
+    "url": "",
+    "observed_headline": "Berkeys Plumbing, AC & Electrical Since 1975",
+    "critique_findings": [
+      "Legacy layout with poor mobile conversion hierarchy",
+      "Missing interactive assessment or scope estimation widget",
+      "Unclear multi-branch directory and contact paths"
+    ]
+  },
+  "generation_goal": {
+    "primary_conversion": "emergency_phone_call",
+    "secondary_conversion": "direct_phone_call",
+    "goal_evidence": "Acute water leaks and plumbing failures demand rapid click-to-call technician dispatch"
+  },
+  "constraints": {
+    "invented_claims_allowed": false,
+    "unsupported_sections_allowed": false,
+    "target_renderer": "deterministic_component_engine"
+  }
+}
